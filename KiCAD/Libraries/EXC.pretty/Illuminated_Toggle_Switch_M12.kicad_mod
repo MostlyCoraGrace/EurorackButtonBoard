@@ -1,0 +1,134 @@
+(footprint "Illuminated_Toggle_Switch_M12"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "15d36448-76a3-461c-957d-6816e5ed4dfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Illuminated_Toggle_Switch_M12"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "19a52a1d-741d-46b5-af5d-2e266d73aa83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7abbe363-e731-4cc0-ac33-f482dc39ee9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "071763a2-5a2d-44f3-8b2e-f6ca0b8fcae2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ed2db28-c326-4cb9-8fc5-8b5e6b945d9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.95 5.2)
+		(end -0.95 6.00643)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c37b8ca2-91ed-4f42-9e3f-00376f0a44f5")
+	)
+	(fp_line
+		(start -0.95 5.2)
+		(end 0.95 5.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e528875d-cd70-448d-a2f3-3c17f8dd04b2")
+	)
+	(fp_line
+		(start 0.95 5.2)
+		(end 0.95 6.00643)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7e88aa5e-cb15-4972-9f7b-1ae04d113610")
+	)
+	(fp_arc
+		(start -0.95 6.00643)
+		(mid 0 -6.08132)
+		(end 0.95 6.00643)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "399672de-5c77-4f24-bdfd-b6f21d05bdeb")
+	)
+	(fp_rect
+		(start -7.75 -25.7307)
+		(end 7.75 24.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d5b82460-df5c-4d9b-a857-999dcce7994b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f9030f8-e9fa-4aed-a816-d571af0457ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
