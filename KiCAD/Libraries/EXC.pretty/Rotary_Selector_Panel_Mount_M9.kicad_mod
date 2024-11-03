@@ -1,0 +1,126 @@
+(footprint "Rotary_Selector_Panel_Mount_M9"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6634bc4f-4e60-471c-9f86-536eeeba4de3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Rotary_Selector_Panel_Mount_M9"
+		(at 0 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e1601248-bcb4-4c9e-a77d-98d2d197ddf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "EXC:Rotary_Encoder_M9"
+		(at 0 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e82d9ee-8c18-46c4-a09d-5a8c50e8d6df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2925/SR16A-18-15KQ.pdf"
+		(at -12.5 17.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc8f6bd1-fd51-4438-92d6-f9207e7f6477")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Description" "An M9 panel-mount rotary selector"
+		(at -12.5 13.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7891e5f3-1ca0-4449-8c8c-1d8989d8ec00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Source" "https://www.adafruit.com/product/2925"
+		(at -12.5 15.5 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "c55204c8-0f9a-47a8-9ba1-7b0be0badaaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 10 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Margin")
+		(uuid "f3b15f2e-97df-4a3d-926b-d8096f6f170c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 8.5 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "d8bfa86b-74f8-4496-9aa9-0f9e94338e22")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e063627f-9c4c-45ad-9c62-5069c348bf08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 9 9)
+		(drill 9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e109ae9e-fce3-4be9-a826-0eed6c2d6b52")
+	)
+)

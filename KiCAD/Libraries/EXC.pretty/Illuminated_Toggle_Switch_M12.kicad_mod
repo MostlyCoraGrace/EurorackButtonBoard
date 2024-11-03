@@ -27,34 +27,36 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
+	(property "Footprint" "EXC:Illuminated_Toggle_Switch_M12"
+		(at -17.5 11 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "7abbe363-e731-4cc0-ac33-f482dc39ee9a")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.75 0.75)
+				(thickness 0.1)
 			)
+			(justify left)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
+	(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3219/LEDtoggle_switch_diagram.jpg"
+		(at -17.5 12.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "071763a2-5a2d-44f3-8b2e-f6ca0b8fcae2")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.75 0.75)
+				(thickness 0.1)
 			)
+			(justify left)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "Panel-mount toggle switch with built-in LED"
+		(at 0 9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -64,6 +66,19 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(property "Source" "https://www.adafruit.com/product/3219"
+		(at -17.5 14 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "d702db35-2e6a-47d6-ac7b-363296666df4")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(attr through_hole)

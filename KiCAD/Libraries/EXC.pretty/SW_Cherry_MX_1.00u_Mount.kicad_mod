@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SW_Cherry_MX_1.00u_Mount"
+	(property "Value" "SW_Cherry_MX_1.00u_Panel_Mount"
 		(at 0 8.5 0)
 		(layer "F.Fab")
 		(uuid "35f469b4-9993-4143-ac50-f73747253526")
@@ -27,43 +27,59 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
+	(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+		(at -12.5 12.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "d4f94afb-6205-4466-970a-8c52c442249f")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.75 0.75)
+				(thickness 0.1)
 			)
+			(justify left)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
+	(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+		(at -12.5 15.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "ba6a04b4-03d3-4581-bd48-71347b918428")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.75 0.75)
+				(thickness 0.1)
 			)
+			(justify left)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "Cherry-MX panel mount mechanical switch"
+		(at -12.5 11 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "db48dbe1-18fb-4b64-bb9b-819141e057b6")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.75 0.75)
+				(thickness 0.1)
 			)
+			(justify left)
+		)
+	)
+	(property "Source" "https://www.adafruit.com/product/4954"
+		(at -12.5 14 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "fcaaceab-9156-4348-9930-e5d13eb13fe1")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(attr through_hole)
