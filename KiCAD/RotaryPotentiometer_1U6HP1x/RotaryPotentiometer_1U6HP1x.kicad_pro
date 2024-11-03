@@ -416,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ToggleSwitch_3U3HP5x.kicad_pro",
+    "filename": "RotaryPotentiometer_1U6HP1x.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -576,7 +576,7 @@
   },
   "sheets": [
     [
-      "41795580-472b-4646-a3a5-27c6a314cf14",
+      "69e83854-497a-44f1-b853-2fe528e29e67",
       "Root"
     ]
   ],

@@ -2,25 +2,25 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "b82143ce-224f-4394-b6f5-d1ece7a63c00")
+	(uuid "69e83854-497a-44f1-b853-2fe528e29e67")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x05_Socket"
+		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x05_Socket"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,35 +80,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x05_Socket_1_1"
-				(arc
-					(start 0 -4.572)
-					(mid -0.5058 -5.08)
-					(end 0 -5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x03_Socket_1_1"
 				(arc
 					(start 0 -2.032)
 					(mid -0.5058 -2.54)
 					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -153,18 +129,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
 					(start 0 0.508)
 					(mid -0.5058 0)
@@ -189,20 +153,8 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 5.588)
-					(mid -0.5058 5.08)
-					(end 0 4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -220,7 +172,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -238,7 +190,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -255,95 +207,83 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
-		(symbol "EXC:Rotary_Encoder_Mount_M7"
+		(symbol "EXC:Rotary_Potentiometer_M7_Panel_Mount"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "RE"
-				(at 0 2.794 0)
+			(property "Reference" "RP"
+				(at 0 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "M7_Panel_Mount_Rotary_Potentiometer"
+				(at 0 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "EXC:Rotary_Potentiometer_M7_Panel_Mount"
+				(at 0 -7.874 0)
 				(effects
 					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(size 0.508 0.508)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/562/p160.pdf"
+				(at -11.176 -9.652 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "An M7 panel-mounted linear potentiometer"
+				(at -18.288 -5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "Rotary_Encoder_Mount_M7_0_1"
-				(rectangle
-					(start -1.524 1.778)
-					(end 1.524 -1.778)
+			(property "Source" "https://www.adafruit.com/product/562"
+				(at -11.176 -8.636 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "Rotary_Potentiometer_M7_Panel_Mount_0_1"
+				(circle
+					(center 0 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.048) (xy 6.096 3.048) (xy 6.096 -3.048) (xy 0 -3.048)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -354,7 +294,18 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 1.27)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.048)
 					(stroke
 						(width 0)
 						(type default)
@@ -449,81 +400,17 @@
 		)
 	)
 	(symbol
-		(lib_id "EXC:Rotary_Encoder_Mount_M7")
-		(at 25.4 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2560c9e-5c0e-41e5-b984-fc106bc3767e")
-		(property "Reference" "RE1"
-			(at 27.94 37.4649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EXC:Rotary_Encoder_Mount_M7"
-			(at 25.4 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 25.4 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/b82143ce-224f-4394-b6f5-d1ece7a63c00"
-					(reference "RE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 25.4 50.8 0)
+		(at 57.15 25.4 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b960e998-7b25-41a7-8b2c-7012e5f59a57")
-		(property "Reference" "H2"
-			(at 27.94 49.5299 0)
+		(uuid "2021f3d6-4dd5-4fa4-bee9-2437d289d956")
+		(property "Reference" "H3"
+			(at 59.69 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -532,7 +419,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 27.94 52.0699 0)
+			(at 59.69 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,7 +428,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 25.4 50.8 0)
+			(at 57.15 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,7 +437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 50.8 0)
+			(at 57.15 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,7 +446,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 25.4 50.8 0)
+			(at 57.15 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -568,8 +455,72 @@
 			)
 		)
 		(instances
-			(project "RotaryEncoder_1U4HP1x"
-				(path "/b82143ce-224f-4394-b6f5-d1ece7a63c00"
+			(project "RotaryPotentiometer_1U6HP1x"
+				(path "/69e83854-497a-44f1-b853-2fe528e29e67"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 57.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e282baa-cbdb-47f8-90ce-a571ae49d1fa")
+		(property "Reference" "H2"
+			(at 34.29 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 34.29 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 31.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RotaryPotentiometer_1U6HP1x"
+				(path "/69e83854-497a-44f1-b853-2fe528e29e67"
 					(reference "H2")
 					(unit 1)
 				)
@@ -577,17 +528,93 @@
 		)
 	)
 	(symbol
+		(lib_id "EXC:Rotary_Potentiometer_M7_Panel_Mount")
+		(at 31.75 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e74e198-a526-4570-992f-f2869319698b")
+		(property "Reference" "RP1"
+			(at 39.37 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M7_Panel_Mount_Rotary_Potentiometer"
+			(at 39.37 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:Rotary_Potentiometer_M7_Panel_Mount"
+			(at 31.75 52.324 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/562/p160.pdf"
+			(at 20.574 54.102 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "An M7 panel-mounted linear potentiometer"
+			(at 13.462 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/562"
+			(at 20.574 53.086 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/69e83854-497a-44f1-b853-2fe528e29e67"
+					(reference "RP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 25.4 25.4 0)
+		(at 57.15 57.15 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c2199280-7204-465a-9252-ad2f89a91d89")
-		(property "Reference" "H1"
-			(at 27.94 24.1299 0)
+		(uuid "69942b8d-f552-4f06-b63f-96622a16fe39")
+		(property "Reference" "H4"
+			(at 59.69 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -596,7 +623,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 27.94 26.6699 0)
+			(at 59.69 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -605,7 +632,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 25.4 25.4 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,7 +641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 25.4 0)
+			(at 57.15 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -623,7 +650,71 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 25.4 25.4 0)
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RotaryPotentiometer_1U6HP1x"
+				(path "/69e83854-497a-44f1-b853-2fe528e29e67"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 25.4 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e794af15-5314-4a2b-928d-5729777126d5")
+		(property "Reference" "H1"
+			(at 34.29 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 34.29 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 31.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +724,7 @@
 		)
 		(instances
 			(project ""
-				(path "/b82143ce-224f-4394-b6f5-d1ece7a63c00"
+				(path "/69e83854-497a-44f1-b853-2fe528e29e67"
 					(reference "H1")
 					(unit 1)
 				)
@@ -641,17 +732,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 43.18 38.1 0)
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 49.53 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c9cd0904-f8f9-4483-9d80-dcff3ee4957e")
+		(uuid "fdeca29b-cb3a-45fc-9d6b-3ee9e68196a5")
 		(property "Reference" "J1"
-			(at 44.45 36.8299 0)
+			(at 50.8 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -659,8 +750,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 44.45 39.3699 0)
+		(property "Value" "Conn_01x03_Socket"
+			(at 50.8 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,8 +759,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-			(at 43.18 38.1 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 49.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -678,7 +769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 38.1 0)
+			(at 49.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,8 +777,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 43.18 38.1 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 49.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,23 +787,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "ff5cda9c-6d67-404c-84eb-56c8d7e93fd4")
+			(uuid "4233c141-2b80-404a-92e7-6f9617226ac8")
 		)
 		(pin "2"
-			(uuid "88ab71ac-48d7-4b75-91aa-b3ffac638cf3")
-		)
-		(pin "5"
-			(uuid "2f92d85e-0b17-4284-97af-73b49fc0122c")
-		)
-		(pin "4"
-			(uuid "ae4c8c36-eeb6-4823-8332-e4de15f99996")
+			(uuid "d08ea37b-dcb4-46f4-ac54-98f4e1f9513e")
 		)
 		(pin "1"
-			(uuid "e1bcc87b-b950-4900-9d5d-2a0ea5425479")
+			(uuid "02a7f136-4701-4438-8a55-cc5df6e8954d")
 		)
 		(instances
 			(project ""
-				(path "/b82143ce-224f-4394-b6f5-d1ece7a63c00"
+				(path "/69e83854-497a-44f1-b853-2fe528e29e67"
 					(reference "J1")
 					(unit 1)
 				)

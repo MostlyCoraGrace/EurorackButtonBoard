@@ -1,0 +1,133 @@
+(footprint "Rotary_Potentiometer_M7_Panel_Mount"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9dfa3f4a-d43b-46ca-9acd-a0956f22b9b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Rotary_Potentiometer_M7_Panel_Mount"
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b6c0b71-f0df-4022-a928-cca7633951e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "EXC:Rotary_Potentiometer_M7_Panel_Mount"
+		(at 0 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa436de5-a630-4c86-a8b4-16131ce0e687")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/562/p160.pdf"
+		(at -10 15.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe6e15a3-4074-416a-b7d2-5755857c92c3")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(property "Description" "A panel-mounted M7 rotary linear potentiometer"
+		(at 0 12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "386326c7-74e3-4cf1-b898-31e9c5366e6b")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(property "Source" "https://www.adafruit.com/product/562"
+		(at -10 14 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "ee968d88-b954-4c52-a747-376427987e8b")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 -8.5)
+		(end 13 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "2a61a879-5c88-4c1b-8bdc-9ac4758905e3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 8.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "af27bade-661f-4277-bb3e-a29ca98f7308")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "10a1abbf-3e3a-4e44-b3f1-6088512257b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 7.5 7.5)
+		(drill 7.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "aa9f9e08-c295-4f63-b892-8b457789b128")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 7.8)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f5ae690e-dec5-4a05-b97c-fee0fd4eca84")
+	)
+)

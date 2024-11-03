@@ -85,7 +85,7 @@
 	(attr through_hole)
 	(fp_circle
 		(center 0 0)
-		(end 7.2 0)
+		(end 6 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -117,10 +117,10 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "" np_thru_hole oval
 		(at 0 -6.4)
-		(size 2.4 2.4)
-		(drill 2.4)
+		(size 2.4 2)
+		(drill oval 2.4 2)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "4a5f7159-b09e-421c-9924-9c2c48e27a62")
 	)
@@ -131,10 +131,10 @@
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "e27b1d63-2641-4032-b1bc-b5cab1607c49")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" np_thru_hole oval
 		(at 6.4 0)
-		(size 2.4 2.4)
-		(drill 2.4)
+		(size 2 2.4)
+		(drill oval 2 2.4)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "49411029-ce4a-4cec-bccd-6c524f594ea7")
 	)

@@ -125,7 +125,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x08_Socket"
+		(symbol "Connector:Conn_01x07_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -139,8 +139,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x08_Socket"
-				(at 0 -12.7 0)
+			(property "Value" "Conn_01x07_Socket"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -165,7 +165,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x08, script generated"
+			(property "Description" "Generic connector, single row, 01x07, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -200,19 +200,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x08_Socket_1_1"
-				(arc
-					(start 0 -9.652)
-					(mid -0.5058 -10.16)
-					(end 0 -10.668)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x07_Socket_1_1"
 				(arc
 					(start 0 -7.112)
 					(mid -0.5058 -7.62)
@@ -241,18 +229,6 @@
 					(start 0 -2.032)
 					(mid -0.5058 -2.54)
 					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -10.16) (xy -0.508 -10.16)
-					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -519,24 +495,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
 		(symbol "EXC:Rotary_Selector_Panel_Mount_M9"
@@ -697,6 +655,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x07_Socket")
+		(at 60.96 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0269cccd-8ba7-49b6-9533-6ddec15ba752")
+		(property "Reference" "J1"
+			(at 62.23 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x07_Socket"
+			(at 62.23 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
+			(at 60.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 60.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fe7776b-e92a-4d71-b333-02fcb32ea92a")
+		)
+		(pin "3"
+			(uuid "8fbade51-7eee-49ea-8837-776009f11def")
+		)
+		(pin "1"
+			(uuid "c7c062a8-3e33-49bf-a628-e57fcadfa36e")
+		)
+		(pin "4"
+			(uuid "798ac7f0-7a0a-42e1-95c2-2b4a7869554f")
+		)
+		(pin "6"
+			(uuid "8d786f6d-9e75-410c-847a-62901597a40b")
+		)
+		(pin "7"
+			(uuid "5d0faea9-615b-4271-86bf-4939de3e4e85")
+		)
+		(pin "5"
+			(uuid "6e85a03d-4e1c-48b4-8da3-d984e0616945")
+		)
+		(instances
+			(project ""
+				(path "/deccc44b-c968-4b4f-a7ed-f4e71808d617"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EXC:Rotary_Selector_Panel_Mount_M9")
 		(at 25.4 38.1 0)
 		(unit 1)
@@ -768,94 +811,6 @@
 			(project ""
 				(path "/deccc44b-c968-4b4f-a7ed-f4e71808d617"
 					(reference "RS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x08_Socket")
-		(at 58.42 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "759662a9-05c4-4a79-80f3-f665b06cde15")
-		(property "Reference" "J1"
-			(at 59.69 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08_Socket"
-			(at 59.69 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 58.42 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 58.42 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ef87c2de-6b7c-442c-a1a2-84742de270ca")
-		)
-		(pin "1"
-			(uuid "69eb8dff-df92-4ccf-8e6b-a034b894bd36")
-		)
-		(pin "3"
-			(uuid "127db0a8-e738-4238-bd1f-d44b74869453")
-		)
-		(pin "7"
-			(uuid "ab067ae8-c56b-42a9-8370-77bccfc56e7b")
-		)
-		(pin "2"
-			(uuid "72422cf4-bede-4928-b2b5-48cefeae13dd")
-		)
-		(pin "8"
-			(uuid "9bdbe338-db3c-42a3-90c9-e808fe1bc923")
-		)
-		(pin "6"
-			(uuid "58be42dc-31d6-4174-a0cb-2bb68b227df2")
-		)
-		(pin "5"
-			(uuid "ff78c249-5231-4556-aa13-d0b71a55c4e5")
-		)
-		(instances
-			(project ""
-				(path "/deccc44b-c968-4b4f-a7ed-f4e71808d617"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -984,6 +939,73 @@
 			(project "RotarySelector_1U4HP1x"
 				(path "/deccc44b-c968-4b4f-a7ed-f4e71808d617"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 68.58 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d299b6ec-3252-4788-b072-1b4b44bdbf1a")
+		(property "Reference" "J3"
+			(at 69.85 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 69.85 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be19d418-cb5f-422e-ba7f-dc39d4d2c36c")
+		)
+		(instances
+			(project "RotarySelector_1U4HP1x"
+				(path "/deccc44b-c968-4b4f-a7ed-f4e71808d617"
+					(reference "J3")
 					(unit 1)
 				)
 			)
