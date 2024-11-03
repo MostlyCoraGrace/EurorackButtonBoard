@@ -85,7 +85,7 @@
 	(attr through_hole)
 	(fp_circle
 		(center 0 0)
-		(end 7.6 0)
+		(end 7.2 0)
 		(stroke
 			(width 0.1)
 			(type default)
