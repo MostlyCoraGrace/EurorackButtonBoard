@@ -1,0 +1,2 @@
+${KIPRJMOD}/../Libraries/EXC.kicad_sym
+${KIPRJMOD}/../Libraries/EXC.pretty
