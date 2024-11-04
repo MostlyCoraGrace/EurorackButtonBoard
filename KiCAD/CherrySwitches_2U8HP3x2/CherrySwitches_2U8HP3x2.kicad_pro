@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.8,
-          "height": 3.2,
-          "width": 4.8
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CherrySwitches_3U8HP5x2_v0-1.kicad_pro",
+    "filename": "CherrySwitches_2U8HP3x2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -576,7 +576,7 @@
   },
   "sheets": [
     [
-      "18f9d95a-cfe4-4f73-adda-7f7fcd0026e1",
+      "587e941d-6296-45d2-9a72-c16f86d185f8",
       "Root"
     ]
   ],
