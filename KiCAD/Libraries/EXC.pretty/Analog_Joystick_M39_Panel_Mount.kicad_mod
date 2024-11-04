@@ -1,0 +1,151 @@
+(footprint "Analog_Joystick_M39_Panel_Mount"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -20.828 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3aa4e3ff-dd24-4db8-9f10-49ff800641be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Analog_Joystick_M39_Panel_Mount"
+		(at 0 20.955 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "787bd738-631b-4c1e-95e7-8f5ecad0953f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "EXC:Analog_Joystick_M39_Panel_Mount"
+		(at 0 22.733 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "083da7f6-1237-4599-9fdb-577a2de75181")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://module-center.com/administrator/files/UploadFile/D202X-R4.pdf"
+		(at 0 27.813 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "567a3382-845b-4e5e-9217-52c5af567bbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mini Analog Joystick - 10K Potentiometers. Panel-mount with 39.5mm Diameter hole."
+		(at 0 24.257 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66d948ad-1971-40cf-8ab1-facf888144e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source" "https://www.adafruit.com/product/3102"
+		(at 0 25.908 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "89b613e6-dfc5-46d7-8b51-630ab9b718b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -29.4 -20.2)
+		(end 20.2 29.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "ddad6500-10f7-47ac-9521-2842005891bc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 26.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "3ba11c18-1904-4385-90bf-e271e2504d12")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -20.828 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7e0d91dd-5429-41a4-ac13-d630724ee23f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -16.25 -16.25)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "67e885bd-65ba-4a4b-8328-5edb9625f620")
+	)
+	(pad "" np_thru_hole circle
+		(at -16.25 16.25)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6ed4f4e2-22d7-4ffb-aeeb-2b5e71ceadac")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 39.5 39.5)
+		(drill 39.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "da75e439-c4b8-4080-bf28-d6408911084b")
+	)
+	(pad "" np_thru_hole circle
+		(at 16.25 -16.25)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e21a8f3a-a6bc-4208-a196-53c62d8edfc8")
+	)
+	(pad "" np_thru_hole circle
+		(at 16.25 16.25)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "63993fd5-c289-4e81-b2f1-82b2cf9c8fbf")
+	)
+)
