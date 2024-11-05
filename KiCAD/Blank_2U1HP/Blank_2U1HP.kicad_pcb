@@ -87,7 +87,7 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H1"
-			(at -3.683 0 0)
+			(at -0.381 4.1 0)
 			(layer "F.SilkS")
 			(uuid "638791a0-6db6-43c9-8460-ddb6a5e2cd3f")
 			(effects
@@ -176,7 +176,7 @@
 			(uuid "259ba8ca-6913-4ebe-aebd-d74f6d44f4d9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -3.683 0 0)
+			(at -0.381 4.1 0)
 			(layer "F.Fab")
 			(uuid "968f6cb9-eae7-42b0-ae70-1525a5d4c5f9")
 			(effects
@@ -202,7 +202,7 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H2"
-			(at -3.683 0 0)
+			(at -0.381 -4.1 0)
 			(layer "F.SilkS")
 			(uuid "b4a64fe3-09ab-40d3-bee7-9ed3e989b654")
 			(effects
@@ -291,7 +291,7 @@
 			(uuid "e7a0adb8-e7b1-4c45-8305-5be6c724420d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -3.683 0 0)
+			(at -0.381 -4.1 0)
 			(layer "F.Fab")
 			(uuid "4d55be43-834e-4669-8c9e-ed084f947188")
 			(effects
