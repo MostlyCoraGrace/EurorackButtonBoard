@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "Analog_Joystick_M39_Panel_Mount"
-			(at 18.796 16.764 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "EXC:Analog_Joystick_M39_Panel_Mount"
-			(at 28.702 11.176 0)
+			(at 0 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://module-center.com/administrator/files/UploadFile/D202X-R4.pdf"
-			(at 17.018 5.08 0)
+			(at -17.78 -17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +42,7 @@
 			)
 		)
 		(property "Description" "Mini Analog Joystick - 10K Potentiometers. Panel-mount with 39.5mm Diameter hole."
-			(at 14.986 1.27 0)
+			(at -18.288 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +52,7 @@
 			)
 		)
 		(property "Source" "https://www.adafruit.com/product/3102"
-			(at 19.304 8.382 0)
+			(at -18.034 -14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -330,7 +330,137 @@
 			)
 		)
 	)
-	(symbol "Linear_Potentiometer_M2_Panel_Mount"
+	(symbol "Linear_Potentiometer_45mm_M2_Panel_Mount"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LP"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Linear_Potentiometer_45mm_M2_Panel_Mount"
+			(at 0.254 -8.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXC:Linear_Potentiometer_45mm_M2_Panel_Mount"
+			(at 0.254 -11.176 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4272/P4272+C13403-001+Data+Sheet+.pdf"
+			(at -7.874 -13.208 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Potentiometer with Knob - 45mm Long - 10KΩ. Panel-mounted with 2x M2 screws, 41mm apart."
+			(at -17.78 -9.906 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4272"
+			(at -7.874 -12.192 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor variable potentiometer rheostat"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Linear_Potentiometer_45mm_M2_Panel_Mount_0_1"
+			(rectangle
+				(start -1.016 5.08)
+				(end 1.016 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -6.35)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.524) (xy 2.54 2.54) (xy 1.524 2.54) (xy 2.54 2.54) (xy -2.032 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 6.35)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Linear_Potentiometer_75mm_M2_Panel_Mount"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0)
@@ -346,7 +476,7 @@
 				)
 			)
 		)
-		(property "Value" "Linear_Potentiometer_M2_Panel_Mount"
+		(property "Value" "Linear_Potentiometer_75mm_M2_Panel_Mount"
 			(at 0 -5.842 0)
 			(effects
 				(font
@@ -354,7 +484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EXC:Linear_Potentiometer_M2_Panel_Mount"
+		(property "Footprint" "EXC:Linear_Potentiometer_75mm_M2_Panel_Mount"
 			(at 0 -8.382 0)
 			(effects
 				(font
@@ -412,7 +542,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Linear_Potentiometer_M2_Panel_Mount_0_1"
+		(symbol "Linear_Potentiometer_75mm_M2_Panel_Mount_0_1"
 			(rectangle
 				(start -1.016 -2.54)
 				(end 1.016 2.54)
