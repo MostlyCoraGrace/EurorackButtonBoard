@@ -469,7 +469,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "LP"
-			(at 0 5.842 0)
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,7 +477,7 @@
 			)
 		)
 		(property "Value" "Linear_Potentiometer_75mm_M2_Panel_Mount"
-			(at 0 -5.842 0)
+			(at -0.254 -11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -485,7 +485,7 @@
 			)
 		)
 		(property "Footprint" "EXC:Linear_Potentiometer_75mm_M2_Panel_Mount"
-			(at 0 -8.382 0)
+			(at -0.254 -13.716 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -495,7 +495,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4219/4219_C11375.pdf"
-			(at -8.128 -10.414 0)
+			(at -8.382 -15.748 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -505,7 +505,7 @@
 			)
 		)
 		(property "Description" "Slide Potentiometer with Knob - 75mm Long - 10KΩ. Panel-mounted with 2x M2 screws, 71mm apart."
-			(at -18.034 -7.112 0)
+			(at -18.288 -12.446 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -515,7 +515,7 @@
 			)
 		)
 		(property "Source" "https://www.adafruit.com/product/4219"
-			(at -8.128 -9.398 0)
+			(at -8.382 -14.732 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -544,8 +544,8 @@
 		)
 		(symbol "Linear_Potentiometer_75mm_M2_Panel_Mount_0_1"
 			(rectangle
-				(start -1.016 -2.54)
-				(end 1.016 2.54)
+				(start -1.016 7.62)
+				(end 1.016 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -555,7 +555,7 @@
 				)
 			)
 			(circle
-				(center 0 -3.683)
+				(center 0 -8.89)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -578,7 +578,7 @@
 				)
 			)
 			(circle
-				(center 0 3.81)
+				(center 0 8.89)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -586,6 +586,100 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Mechanical_Pad_Solder_Linkage"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "MP"
+			(at 0 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mechanical_Pad_Solder_Linkage"
+			(at 0 -4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at -9.652 -6.858 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
+			(at -9.652 -5.588 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "Mechanical_Pad_Solder_Linkage_0_1"
+			(rectangle
+				(start -1.6129 3.2258)
+				(end 1.6129 -3.2258)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.54)
+				(end 1.27 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Mechanical_Pad_Solder_Linkage_1_1"
+			(pin bidirectional non_logic
+				(at -1.27 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
