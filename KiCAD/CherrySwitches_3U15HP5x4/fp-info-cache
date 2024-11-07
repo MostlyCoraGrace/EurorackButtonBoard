@@ -1,4 +1,4 @@
-24191039847777433
+24206616351222622
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56784,7 +56784,56 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 EXC
+Analog_Joystick_M39_Panel_Mount
+
+
+0
+0
+0
+EXC
+Illuminated_Toggle_Switch_M12
+
+
+0
+0
+0
+EXC
+Linear_Potentiometer_45mm_M2_Panel_Mount
+
+
+0
+0
+0
+EXC
+Linear_Potentiometer_75mm_M2_Panel_Mount
+
+
+0
+0
+0
+EXC
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+EXC
 Rotary_Encoder_Mount_M7
+
+
+0
+0
+0
+EXC
+Rotary_Potentiometer_M7_Panel_Mount
+
+
+0
+0
+0
+EXC
+Rotary_Selector_Panel_Mount_M9
 
 
 0
@@ -56797,6 +56846,20 @@ Cherry MX keyswitch 1.00u plate
 0
 0
 0
+EXC
+SW_SPDT_M6_Panel_Mount
+
+
+0
+0
+0
+EXC
+SolderWirePad_1x01_SMD_1x2mm
+Wire Pad, Square, SMD Pad,  1mm x 2mm,
+MesurementPoint Square SMDPad 1mmx2mm 
+0
+1
+1
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
