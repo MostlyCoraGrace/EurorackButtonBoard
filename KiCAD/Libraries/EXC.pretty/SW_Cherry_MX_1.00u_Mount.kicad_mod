@@ -84,6 +84,17 @@
 	)
 	(attr through_hole)
 	(fp_rect
+		(start -9.525 -9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "99f2d009-8655-429e-ab06-373d8a775d56")
+	)
+	(fp_rect
 		(start -7 -7)
 		(end 7 7)
 		(stroke
@@ -93,17 +104,6 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "7086d7c8-a718-4147-a006-d07909775911")
-	)
-	(fp_rect
-		(start -9.525 -9.525)
-		(end 9.525 9.525)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Margin")
-		(uuid "99f2d009-8655-429e-ab06-373d8a775d56")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -8 0)
