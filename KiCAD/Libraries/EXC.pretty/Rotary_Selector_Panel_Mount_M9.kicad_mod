@@ -84,25 +84,25 @@
 	(attr through_hole)
 	(fp_circle
 		(center 0 0)
-		(end 10 0)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill none)
-		(layer "Margin")
-		(uuid "f3b15f2e-97df-4a3d-926b-d8096f6f170c")
-	)
-	(fp_circle
-		(center 0 0)
 		(end 8.5 0)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(fill none)
-		(layer "B.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "d8bfa86b-74f8-4496-9aa9-0f9e94338e22")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 10 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "f3b15f2e-97df-4a3d-926b-d8096f6f170c")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -9 0)

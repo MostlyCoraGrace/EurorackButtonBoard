@@ -91,7 +91,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "Margin")
+		(layer "Dwgs.User")
 		(uuid "499518ec-6d9d-42ea-92be-d0706f8b4fa5")
 	)
 	(fp_rect
