@@ -3433,6 +3433,18 @@
 		(layer "Edge.Cuts")
 		(uuid "b11c347d-a93e-438b-bb84-847700191d4d")
 	)
+	(gr_text "WayWayWay"
+		(at 6.5 25.25 -90)
+		(layer "B.SilkS")
+		(uuid "7003ddf0-a65c-492f-8ac3-9782a85110ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
+		)
+	)
 	(gr_text "ItsyBitsy Panel-Mount\nVertical Adapter\nV1\nMostlyCoraGrace"
 		(at 13.97 33.02 0)
 		(layer "B.SilkS")

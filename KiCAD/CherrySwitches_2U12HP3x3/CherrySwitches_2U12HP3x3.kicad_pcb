@@ -2811,6 +2811,18 @@
 		(layer "Edge.Cuts")
 		(uuid "71e313bc-a391-46c3-a559-54c89dce769a")
 	)
+	(gr_text "WayWayWay"
+		(at 49 3.75 0)
+		(layer "B.SilkS")
+		(uuid "2e1432eb-5631-4cf1-9f77-4f41fbe5cead")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
+		)
+	)
 	(gr_text "Cherry Switches\n2U12HP 3x3 V1\nMostlyCoraGrace"
 		(at 11.557 3.81 0)
 		(layer "B.SilkS")

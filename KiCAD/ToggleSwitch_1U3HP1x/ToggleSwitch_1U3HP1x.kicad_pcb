@@ -785,6 +785,18 @@
 			(justify top mirror)
 		)
 	)
+	(gr_text "WayWayWay"
+		(at 0.75 32.5 90)
+		(layer "B.SilkS")
+		(uuid "48f8ba69-9154-4e7c-b549-8066650e420d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
+		)
+	)
 	(gr_text "MostlyCoraGrace"
 		(at 1.778 8.128 270)
 		(layer "B.SilkS")

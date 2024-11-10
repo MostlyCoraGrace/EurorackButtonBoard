@@ -329,6 +329,18 @@
 		(layer "Edge.Cuts")
 		(uuid "e2dd4402-271b-40b7-8ebb-8dd190c5ec52")
 	)
+	(gr_text "WayWayWay"
+		(at 3.25 10.75 90)
+		(layer "B.SilkS")
+		(uuid "453cfd95-e784-4e21-b5a8-ab199ace7ff3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
+		)
+	)
 	(gr_text "Blank 1U1HP V1 MostlyCoraGrace"
 		(at 2.413 11.049 90)
 		(layer "B.SilkS")

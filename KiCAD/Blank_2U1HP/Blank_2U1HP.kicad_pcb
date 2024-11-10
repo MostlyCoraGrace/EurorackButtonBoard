@@ -330,7 +330,7 @@
 		(uuid "e2dd4402-271b-40b7-8ebb-8dd190c5ec52")
 	)
 	(gr_text "Blank 2U1HP V1 MostlyCoraGrace"
-		(at 1.905 18.796 270)
+		(at 1.905 21.5 270)
 		(layer "B.SilkS")
 		(uuid "68be062a-0ca3-4e0e-a477-b5524d0f8b9b")
 		(effects
@@ -340,6 +340,18 @@
 				(bold yes)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "WayWayWay"
+		(at 2 79.5 -90)
+		(layer "B.SilkS")
+		(uuid "e83fff39-347c-4214-8659-8a852f344c8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
 		)
 	)
 	(zone

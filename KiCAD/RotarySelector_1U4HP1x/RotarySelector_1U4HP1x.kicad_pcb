@@ -1302,6 +1302,18 @@
 		(layer "Edge.Cuts")
 		(uuid "d3ba9d9f-115f-40b8-a975-5dc6fd223e3f")
 	)
+	(gr_text "WayWayWay"
+		(at 18 21.75 90)
+		(layer "B.SilkS")
+		(uuid "db8fdfaf-0b9b-4e2d-a81b-ebe80d7867da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
+		)
+	)
 	(gr_text "Rotary Selector\n1U4HP 1x V1\nMostlyCoraGrace"
 		(at 14.478 7.62 0)
 		(layer "B.SilkS")
