@@ -1,0 +1,7 @@
+The first PCBs arrived last week, as did the case I ordered from a local Music store! 
+[img]
+Look how perfectly they fit!
+
+Next steps will be designing more modules which support more types of Thing (as cool as Cherry-MX keyswitches are, they can't do everything).
+
+Fingers crossed the next few parts fit too!

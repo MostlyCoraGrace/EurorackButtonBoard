@@ -1,0 +1,30 @@
+Two things are true:
+
+    There are many Buttonboard projects out in the 'web. I have but one problem with all of them: they're too permanent.
+    I'm a big fan of non-linear, modular workflows. I like being able to un-do things, or move things around once I've got a feel for them.
+
+Maybe i want more dedicated buttons while I'm playing this game, or maybe i want more knobs or sliders for that game. Maybe i want some toggle switches while I'm playing this, but those toggles would be useless while i play that.
+There are so many considerations to keep in mind while designing a buttonboard. How do you decide what to include in yours?
+Why make the choice at all?
+
+If you don't have to choose, you can do it all.
+But why Eurorack?
+
+Maybe it's because the format was on my mind, or maybe its because the format lends itself well to a modular workflow (because it is one), or maybe its just because the hardware is abundant and there are many cases and screws and other such hardware to choose from, maybe its because the documentation for said hardware specifications is abundant.
+
+Maybe it's because the size is Just Right.
+
+Take a look at this, an early mockup I put together of a complete 104-key keyboard fitting inside a standard 19" frame. 3U for the alphas, and 1U for the function row:
+[img]
+Look how perfectly it fits!! I'm sure someone who understands the Imperial measurement system won't find this interesting, but as someone who only ever uses Metric, this just feels so wild to me. Sure, the function row and ESC keys are pretty far away, but let's ignore that. A 1U intellijel-compatible module can fit a rotary encoder, a toggle switch, a cherry-MX or Choc-compatible keyswitch, or a rotary selector. A 3U Eurorack-compatible module can fit 5 (or 6) Cherry-MX or Choc keyswitches, a linear potentiometer, various toggle switches, rotary encoders, rotary selectors, etc.
+
+There's also the question of why I went with an existing standard, instead of coming up with my own. Sure, if i went with my own standard, i could make the sizes better suit the parts I intend to use- an Eurorack module leaves a lot of 'wasted' space to the rails, and lots of gaps between parts as 1U is too small for some of the parts, and 3U is too large for some of the parts- but the alternative is i have to make my own standard.
+many people have tried to make their own standards before- but they've all of them ended up being way too over-engineered. I've seen projects that used pogo pins, and a microcontroller that has firmware to allow hot-swapping components, and custom 3d-printed shrouds, and- its a lot. It's too much. It doesn't have to be that complicated.
+
+You don't need to have support in the firmware for hot-swapping components, because the only way to bind an action to an input in a game is to press the button, and if you can't press the button, you can't bind to it. There's no need to de-register the firmware for the button if you can't bind to it.
+
+You don't need to 3d-print custom cases if you can use an existing case, and simple PCB plates.
+
+You don't need custom pogo pin matrices to combine components if you just jam all the cables behind a façade.
+
+And so, Eurorack.
