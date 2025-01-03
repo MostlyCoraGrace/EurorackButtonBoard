@@ -21,6 +21,16 @@ joystick.add_input(
     Button(board.MOSI), # left Rotary encoder middle click
     Button(), # left Rotary encoder A
     Button(), # left Rotary encoder B
+    Button(), # These buttons all come from the Neokey matrix
+    Button(), # These buttons all come from the Neokey matrix
+    Button(), # These buttons all come from the Neokey matrix
+    Button(), # These buttons all come from the Neokey matrix
+    Button(), # These buttons all come from the Neokey matrix
+    Button(), # These buttons all come from the Neokey matrix
+    Button(), # These buttons all come from the Neokey matrix
+    Button(), # These buttons all come from the Neokey matrix
+    Button(), # These buttons all come from the Neokey matrix
+    Button(), # These buttons all come from the Neokey matrix
 )
 
 # Set up the rotary encoder inputs
@@ -31,6 +41,27 @@ encoder = rotaryio.IncrementalEncoder(ENC_A, ENC_B)
 encoder_pos = encoder.position
 last_encoder_pos = encoder.position
 encoder_value = 0
+
+#Set up the NeoKey matrix
+import keypad
+
+COLUMNS = 2
+ROWS = 5
+
+keys = keypad.KeyMatrix(
+    row_pins=(
+        board.D5,
+        board.D7,
+        board.D9,
+        board.D10,
+        board.D11
+    ),
+    column_pins=(
+        board.D12,
+        board.D13,
+    ),
+    columns_to_anodes=False,
+)
 
 while True:
     # The encoder needs to be set manually
@@ -47,6 +78,14 @@ while True:
         joystick.button[7].source_value = 1
         joystick.button[8].source_value = 1
     last_encoder_pos = encoder.position # Store the current encoder position for next time
+
+    # The Neokey matrix sends events that we can react to.
+    key_event = keys.events.get()
+    if key_event:
+        # Whenever there is an event for the key,
+        # whether that be it being pressed or un-pressed,
+        # we send the corresponding action to the joystick.
+        joystick.button[key_event.key_number + 9].source_value = 0 if key_event.pressed else 1
     
     # Now we can continue
     joystick.update()
