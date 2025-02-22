@@ -1,0 +1,13 @@
+Log #4: The Hack
+Since I'm trying to fit 1U (and, now, 2U) modules into a 3U case, I'm going to need some kind of adapter. There were a few I could find online by searching Modular Grid, but none of them were flexible enough or in stock enough for me to humor them as real alternatives. Instead, I decided I would make my own!
+
+I had an epiphany one day, while designing some of the modules for this project. I was toiling away inside blender, doing what I do and hyperfocusing on what would probably never come to fruition, when it happened.
+I stopped what I was doing, sat back in my chair, and just like that, I had it. I moved my hands together, crossed each finger over the other; that was it! I would make a fingerey-sandwichey-thing with PCBs at right-angles to eachother, and use solder pads to hold it together like glue. Just like one would with a laser-cut wood project!
+I'm sure there's a word for what this is, and I'm sure I'm not the only one to have this idea, but it felt magical to have come up with the idea on my own, even if it wasn't a unique one.
+I got to googling, and found some nice DIY Eurorack case rails made by SynthRacks. There was some thorough documentation (which I love), with lots of pictures! Very nice, I thought. There are even custom HP length options! Perfect.
+I couldn't find exact measurements of where the mounting hole would go, so I designed a slot instead of just a hole, for the screw to mount the rail to the PCB, and designed groves for the PCBs to mount to eachother, and added some small surface-mounted areas for the solder to attach each part of the PCBs together. I found some nice screws on AliExpress with a recessed hex slot inside the shaft, so the screw had a much slimmer profile; this was important, since I wanted the adapter to take up only a single HP for each side of the adapter; this is what the alternatives I was looking at ordering used, and I didn't want to be shown-up by someone else!
+Here's what I came up with: 
+
+[picture of the 3u-to-1u adapter design in Blender]
+
+Now it was just a matter of picking the right HP lengths for the modules I wanted to fit in them, and Order the parts, and hope I didn't screw anything up, and that my weird hack actually works! No big deal. We shall see.

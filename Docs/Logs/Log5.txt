@@ -1,0 +1,36 @@
+Log #5: Ordering the Parts
+This is where this project started to get interesting! (for me)
+I woke up one morning to a rather intriguing email from an interested party; they claimed they were a representative from a company called PCBWay, and we're offering me a sponsorship opportunity.
+This had me excited for several reasons;
+1) How did they find out about me? I had only just been uploading the project to github for a little while, and definitely had not advertised it anywhere on social media; do PCBWay employees just go trawling through new GitHub pages to find interesting things? I was curious.
+2) I have never been sponsored for anything before. I'm just some shmoe, I didn't even finish High School! I've had the same job for a decade, I don't hang out anywhere exciting, I definitely haven't been hanging out around people of enough import to have *sponsorships*. I was excited!
+
+So I sent an email back saying "yes please!", and here we are. Exciting!
+PCBWay promised to send me the PCBs I odered for free, and in return I was to give them "some kind of shout-out or review". They were really quite vague about it, which im nervous about, but also that's pretty neat? Quite hands-off. Anywho-
+
+The first PCBs I ordered for this project (see Log#2) were from JLCPCB, and ordering from them was... interesting. Manually generating the gerbers was tedious, but at least their documentation was thorough. The PCBs were shipped in a timely manner, and didn't have anything wrong with them, so I must have done the gerber generation properly, but it was still quite scary! I liked their colour options, and they even had thickness options which I toyed around with, since technically the Eurorack standard has 2mm-thick plates. In the end, I stuck with the default 1.6mm thickness, since I'm already designing 2U components so sticking perfectly with the standard doesn't really matter any more, and the extra 0.4mm won't really affect anything. There's plenty of extra space in the rails to accommodate the extra screw length leftovers.
+
+I've also used OSH Park before (for different projects, many years ago), which was much easier (just upload the `.kicad_pcb` file), but were also more limiting; purple only, no thickness options, and no custom fonts! They do have the best PCB preview options of all of the ones I've tried so far though, so they're great for a first-timer. Nice large preview windows showing what either side of the PCB will look like! Very good for peace-of-mind.
+
+PCBWay, on the other hand, is rather quite a lot more user-friendly compared to JLCPCB, and just as customizable; Not nearly as limited as OSH Park, and nearly as easy to use.
+After recieving the go-ahead for the sponsorship, I looked into how to order from them, and it turns out they have a nice little one-click button you can install directly into KiCAD that will do all the gerber generating all for you, and open an order page in your browser with it all uploaded for you! very cool. I didn't even have to look for it very hard! I opened KiCAD, opened the Plugin And Content Manager, and searched "PCBWay", and there it was! The `PCBWay Plug-in for KiCad`. Installed that with no trouble, and now there was a button in the PCB Editor that, when pressed, opened a browser window with an order of the current PCB design ready-to-go! Love that. I'm probably just going to keep using PCBWay just for that, to be honest.
+Can't get a more glowing review from me than "It Just Works", and boy howdy it just does. Neato!
+I debated going with 2mm thickness for the PCBs this time again, but again the price was a factor- the 1.6mm thickness PCBs are just so much more common that their prices are so much cheaper than every other option, and again the extra 0.4mm for the screws won't be a problem. Sure I'm getting these ones for free, but Liam my lovely representative doesn't have infinite patience, and I'm sure if I, some rando who happened to get his attention one day, came to him with a $500 bill for some random parts that don't even take advantage of any PCB traces or anything, I'm sure he'd laugh at me. So 1.6mm it is, and I'll be happy about it!
+
+The parts took a few days to fab, and a few more to ship to me all the way in Australia, but they arived much sooner than expected, and very nicely packed!
+
+[pic of the parts strewn out on bubble wrap]
+
+While this was happening, I also ordered the electrical components I needed from AdaFruit and AliExpress, and waited for them to arive. No AdaFruit or AliExpress sponsorship for me sadly, and these were quite a bit more expensive than the PCBs would have been, so I was a bit nervous about it. My lovely girlfriend, breadwinner that she is, gave me some lovely birthday gift money to pay for these parts. Thankyou jae! I love you with all my heart <3 
+I could probably have saved quite a bit of money if I ordered the parts from elsewhere, but AdaFruit is just so convenient. Their documentation of each part is second to none, and they have been reliable and convenient for me in the past. I took a risk ordering some extra parts from AliExpress, but I found some rather really nice toggle switches there that would really make this project, so I figured why not. It was quite a boon to find that the switches on AliExpress fit the same hole sizing and bounds as the ones from AdaFruit; I suspect there's some kind of standard involved with this, but I'm no electrician so I just shrugged and took the win for what it was.
+
+[pic of the electronics haul]
+
+For what I ordered, here are the PCBs I designed, with the respective electrical component that fits in it:
+
+[table of the BOM]
+
+I also ordered two sets of rails from SynthRacks. I decided on a set of 32HP rails, and a set of 12HP rails. That would give me plenty of space for the components I wanted to play around with :)
+John from SynthRacks was very quick with responding to me, and the parts were shipped very quickly! Shipping to Australia from the UK was quite expensive (£45 for the rails, and  £40 for their delivery), but the end result was very worth it. I didn't even factor in any length variability into my design (I was too excited from the sponsorship and things happened very quickly), but thankfully they were exactly-to-length and I didn't have to worry about any of that.
+
+[pic of the rails]
