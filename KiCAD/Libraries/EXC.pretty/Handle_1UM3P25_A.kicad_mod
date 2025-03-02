@@ -1,0 +1,117 @@
+(footprint "Handle_1UM3P25_A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3415111d-f0d7-4d31-bd57-8e2ca77a46d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Handle_1UM3P25_A"
+		(at 0 32.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1133db77-0801-4062-be02-2f8b587ce3b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27d2829f-b644-496e-a804-72c0c9c6af1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81956fb2-5589-48ba-9c74-a9175f0654e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -3 0)
+		(end 3 25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "f20acba8-44bf-4c7b-b93b-fd2a9aa62603")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "3515c362-049c-4f5d-8121-bdabf1af51bc")
+	)
+	(fp_circle
+		(center 0 25)
+		(end 3 25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e937af25-81b9-4954-bc6d-9efc571c46c3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 34.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8248d965-b8dc-4d82-bbc5-7dccf2ca7b6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "96e15e77-39b4-4776-b61f-6b7358993f03")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 25)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "db2ce6ab-0e89-4285-8c14-741229a9dc25")
+	)
+	(embedded_fonts no)
+)
