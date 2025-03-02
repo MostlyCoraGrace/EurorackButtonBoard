@@ -1,0 +1,1152 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(footprint "EXC:6mm_Panel_Mount_LED"
+		(layer "F.Cu")
+		(uuid "056c14e8-90ed-4ae0-a461-8d6cae56944f")
+		(at 28.62 14.95)
+		(property "Reference" "D1"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "b5b73441-89f3-4589-8636-09a3d86372fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "6mm_Panel_Mount_LED"
+			(at 0 6.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "91a1ec32-f175-4f83-84a7-6a9d40ccd241")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1d9c37b-fa14-4a44-8bac-482a0dd88625")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "131ff132-2fc7-41d6-b6fc-212d6b9ed7dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/1ad3cb02-da51-477e-ad24-6d434f8249a8")
+		(sheetname "/")
+		(sheetfile "ToggleSwitch_1U7HP1x_B.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 4 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "e022f4bc-27b6-44a6-ba73-4acd0589f7f7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "466d1c23-e39c-4f1d-883c-3243daa4283e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a1646d92-0066-448e-b950-3c91cc87f53d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.2 6.2)
+			(drill 6.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ac4e3d93-679d-431d-a5e8-78ffb486580f")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "EXC:Handle_1UM3P25_A"
+		(layer "F.Cu")
+		(uuid "4820d400-cd65-424f-a212-b3edebc851bd")
+		(at 5.08 9.75)
+		(property "Reference" "H2"
+			(at 0 21.15 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "e212779c-7758-435f-b16e-207102f3346b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Handle_1UM3P25_PanelMount_A"
+			(at 0 32.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e9dfc5a2-cb16-41d3-8271-b8647acd25b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e111e3b-9fd6-4b09-88de-faec2a9470f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7e1d24c-ea26-494a-b547-306240682ddc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/deec32a3-c201-4183-be73-5f143fd6124f")
+		(sheetname "/")
+		(sheetfile "ToggleSwitch_1U7HP1x_B.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_rect
+			(start -3 0)
+			(end 3 25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "99a1187b-890d-41a9-a95e-2f945280bf78")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "9af882da-6240-4361-a44f-389fbe4de7df")
+		)
+		(fp_circle
+			(center 0 25)
+			(end 3 25)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "e4b17269-ef73-4269-9a0c-6de979008ec3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 34.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b445db24-7cf9-4ff9-a960-d3b2e9630a4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "af205592-b7d0-4af3-a38b-8f5ef4751813")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 25)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5c2229e0-f780-4d8c-a036-fb91b912a775")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "EXC:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "c0840e93-461c-413d-99c9-2c936bfa550a")
+		(at 27.94 5.4)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H4"
+			(at -3.683 0 0)
+			(layer "B.SilkS")
+			(uuid "6f500776-7a12-4ca6-a00b-9a5d4a8db0b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left mirror)
+			)
+		)
+		(property "Value" "Eurorack_M3_MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "390e5e1f-49fc-433c-8c2e-9e7dce24027d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ad27d54-e91d-493c-873e-7db8988f1b9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a62f5af4-0d5d-44ee-a9a6-9ce482f96c20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/d471be8a-9d7d-48da-80d0-cdf20c9ec03c")
+		(sheetname "/")
+		(sheetfile "ToggleSwitch_1U7HP1x_B.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "bda96c65-91c1-4412-9ea3-599f0a1b93f2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.84 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Margin")
+			(uuid "82e5ff26-9dda-4e4d-9f2a-dfcb33779082")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d78c3e08-cba6-41b4-8797-7163737ae0db")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -3.683 0 0)
+			(layer "F.Fab")
+			(uuid "a97406a4-9407-4177-90d6-1b645259dff5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(pad "" np_thru_hole oval
+			(at 0 0)
+			(size 4.34 3.2)
+			(drill oval 4.34 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2492a5af-8f80-4f46-a4f8-3a1f1d0f5aa4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "EXC:M6_Nut_Hole"
+		(layer "F.Cu")
+		(uuid "cae90361-57ed-4427-97ff-bba2181119f8")
+		(at 19.75 22.225)
+		(property "Reference" "N1"
+			(at 0 -6 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "2b7f7f91-a402-443d-8f9a-46555e666a18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "M6_Nut_Hole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "88488108-1434-4dee-8489-5b4f0189794a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1dc1095-3290-4a3c-b00d-a97b7959feb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e01943d5-2830-4796-a3a0-c67f9c1a67ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/353ffd35-e9fc-449c-ad07-5412efcd90bf")
+		(sheetname "/")
+		(sheetfile "ToggleSwitch_1U7HP1x_B.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 5.25 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "258c9d56-27b5-4ae0-a71e-df5ab80bbca9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 6.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3b0857be-7f06-4508-adf7-3bb1e6d0f435")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 10.5 10.5)
+			(drill 10.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cc7b8a04-f438-4e20-859c-3aa7b1ffbd21")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "EXC:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "d988b201-2b48-4834-8076-743a903837e4")
+		(at 27.94 39.05)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H5"
+			(at -5.84 0 0)
+			(layer "B.SilkS")
+			(uuid "86daa533-d235-4309-8b5f-ac6ee3a994c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify right mirror)
+			)
+		)
+		(property "Value" "Eurorack_M3_MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "b5c2b67b-5c18-4bca-8628-bd4b1b88809e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10fecab5-7580-4e84-b2e9-8df69b029b85")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faa5e778-810e-4b36-96fe-4742b14c2da8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/962ce4af-10e9-45cf-84fa-16d9357753d8")
+		(sheetname "/")
+		(sheetfile "ToggleSwitch_1U7HP1x_B.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "20acf80d-05fe-4f34-8852-7947fb20833a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.84 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Margin")
+			(uuid "052f3c8f-dd32-4614-8053-21b5ef54b3c3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4121d61f-2056-43a4-94bf-e3fa2c4fcad6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -3.683 0 0)
+			(layer "F.Fab")
+			(uuid "147c76f3-1bd2-4a4b-bfe5-ec245d6a4df8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(pad "" np_thru_hole oval
+			(at 0 0)
+			(size 4.34 3.2)
+			(drill oval 4.34 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f95717de-3f23-4991-94a2-e11a13021da5")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "EXC:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "dabb2d83-b089-423e-b054-3e1cb836cf76")
+		(at 10.16 39.05)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H3"
+			(at -5.76 0 0)
+			(layer "B.SilkS")
+			(uuid "f7dee72c-caec-4d3f-8bf1-8e88bdc74984")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify right mirror)
+			)
+		)
+		(property "Value" "Eurorack_M3_MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "e20c4554-bc13-4418-b6d3-e57f44ac7cd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dbf31bc-444c-4210-bbaf-df64288f0db2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48ef9c9c-2504-48bb-b0ba-d81f2a00b16d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/29c4b5ff-0244-42d3-9dfe-f67ccc09c603")
+		(sheetname "/")
+		(sheetfile "ToggleSwitch_1U7HP1x_B.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "263f1bd2-4247-4fd7-94df-04eba2491006")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.84 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Margin")
+			(uuid "6d4dc267-8bcf-4581-9121-31ad34169cab")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6d448a24-eddb-479b-bc65-a5ddee285540")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -3.683 0 0)
+			(layer "F.Fab")
+			(uuid "76ccf492-14d5-47f7-b45d-da9b11dd94d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(pad "" np_thru_hole oval
+			(at 0 0)
+			(size 4.34 3.2)
+			(drill oval 4.34 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5fdd3709-4e80-4b60-9b3e-4f257b49d906")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "EXC:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "e220228f-ac80-4131-8470-5756fc93e3d5")
+		(at 10.16 5.4)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H1"
+			(at -4.86 0 0)
+			(layer "B.SilkS")
+			(uuid "259e1afe-2850-4785-8472-edc23d0f16f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Eurorack_M3_MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "3125bc40-9906-498b-b17a-9393fbfffdae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d86624aa-ddd0-4ef3-8760-9a2d16308739")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a7d98e9-086c-4a2c-85f2-647bd9044f85")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/6d477a8f-7435-4440-8998-80e3c84d300a")
+		(sheetname "/")
+		(sheetfile "ToggleSwitch_1U7HP1x_B.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "b2e6b86d-9912-4663-8b0c-6705ce0d2964")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.84 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "Margin")
+			(uuid "d3a7a25e-2b33-422e-af50-c403d428b865")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5cffe5ab-754d-4e5d-a8d2-a3e149a10232")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -3.683 0 0)
+			(layer "F.Fab")
+			(uuid "6ab1e18d-4dcf-46b4-bd0e-040791c62c17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(pad "" np_thru_hole oval
+			(at 0 0)
+			(size 4.34 3.2)
+			(drill oval 4.34 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6de59ec5-118d-4fa4-be00-0d627d6a79c3")
+		)
+		(embedded_fonts no)
+	)
+	(gr_rect
+		(start 12.5 33.5)
+		(end 31.5 34)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "167cae1f-99cf-4150-b12a-8b3ddbb80f3a")
+	)
+	(gr_rect
+		(start 31.5 33)
+		(end 32 33.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2389ba55-6fa6-4ecc-b13b-3c749902dc7a")
+	)
+	(gr_rect
+		(start 12 33)
+		(end 12.5 33.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3e485112-5ce3-413a-bd29-24f42dde169f")
+	)
+	(gr_rect
+		(start 12 11)
+		(end 12.5 11.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "43a38680-4814-447b-8c2b-e05021cd2f04")
+	)
+	(gr_rect
+		(start 11.5 11.5)
+		(end 12 33)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7b555b2f-9d6a-456a-be8e-9c6c4ae74298")
+	)
+	(gr_rect
+		(start 12.5 10.5)
+		(end 31.5 11)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b1efcaa1-48ab-4ce3-ac9e-9b094a770ea7")
+	)
+	(gr_rect
+		(start 32 11.5)
+		(end 32.5 33)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c1e8c7d0-00ce-4719-9b8b-a933b049f176")
+	)
+	(gr_rect
+		(start 31.5 11)
+		(end 32 11.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "dc5c2213-941a-49e1-968f-c71c784586c7")
+	)
+	(gr_rect
+		(start 0 2.425)
+		(end 33.02 42.075)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "997116ea-0d97-4499-b480-396835252de1")
+	)
+	(gr_text "OFF"
+		(at 29 22.25 0)
+		(layer "F.SilkS")
+		(uuid "0bc48845-b6c1-47b6-a6d6-e6a7b1873dfe")
+		(effects
+			(font
+				(face "Departure Mono")
+				(size 2 2)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "OFF" 0
+			(polygon
+				(pts
+					(xy 26.584439 21.298248) (xy 26.584439 22.825498) (xy 26.83894 22.825498) (xy 26.83894 21.298248)
+				)
+			)
+			(polygon
+				(pts
+					(xy 26.83894 22.825498) (xy 26.83894 23.08) (xy 27.602565 23.08) (xy 27.602565 22.825498)
+				)
+			)
+			(polygon
+				(pts
+					(xy 27.602565 21.298248) (xy 27.602565 22.825498) (xy 27.857188 22.825498) (xy 27.857188 21.298248)
+				)
+			)
+			(polygon
+				(pts
+					(xy 26.83894 21.043625) (xy 26.83894 21.298248) (xy 27.602565 21.298248) (xy 27.602565 21.043625)
+				)
+			)
+			(polygon
+				(pts
+					(xy 28.36448 21.043625) (xy 28.36448 23.08) (xy 28.618981 23.08) (xy 28.618981 22.061873) (xy 29.382607 22.061873)
+					(xy 29.382607 21.807372) (xy 28.618981 21.807372) (xy 28.618981 21.298248) (xy 29.63723 21.298248)
+					(xy 29.63723 21.043625)
+				)
+			)
+			(polygon
+				(pts
+					(xy 30.144522 21.043625) (xy 30.144522 23.08) (xy 30.399023 23.08) (xy 30.399023 22.061873) (xy 31.162649 22.061873)
+					(xy 31.162649 21.807372) (xy 30.399023 21.807372) (xy 30.399023 21.298248) (xy 31.417272 21.298248)
+					(xy 31.417272 21.043625)
+				)
+			)
+		)
+	)
+	(gr_text "(ON)"
+		(at 20 15 0)
+		(layer "F.SilkS")
+		(uuid "18ccb7bb-058a-4b60-895a-dae4f6f9c094")
+		(effects
+			(font
+				(face "Departure Mono")
+				(size 2 2)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "(ON)" 0
+			(polygon
+				(pts
+					(xy 16.948919 14.048248) (xy 16.948919 15.575498) (xy 17.203542 15.575498) (xy 17.203542 14.048248)
+				)
+			)
+			(polygon
+				(pts
+					(xy 17.458043 15.83) (xy 17.458043 15.575498) (xy 17.203542 15.575498) (xy 17.203542 15.83)
+				)
+			)
+			(polygon
+				(pts
+					(xy 17.458043 15.83) (xy 17.458043 16.084623) (xy 17.712544 16.084623) (xy 17.712544 15.83)
+				)
+			)
+			(polygon
+				(pts
+					(xy 17.458043 13.539124) (xy 17.458043 13.793625) (xy 17.712544 13.793625) (xy 17.712544 13.539124)
+				)
+			)
+			(polygon
+				(pts
+					(xy 17.203542 13.793625) (xy 17.203542 14.048248) (xy 17.458043 14.048248) (xy 17.458043 13.793625)
+				)
+			)
+			(polygon
+				(pts
+					(xy 18.474459 14.048248) (xy 18.474459 15.575498) (xy 18.72896 15.575498) (xy 18.72896 14.048248)
+				)
+			)
+			(polygon
+				(pts
+					(xy 18.72896 15.575498) (xy 18.72896 15.83) (xy 19.492586 15.83) (xy 19.492586 15.575498)
+				)
+			)
+			(polygon
+				(pts
+					(xy 19.492586 14.048248) (xy 19.492586 15.575498) (xy 19.747209 15.575498) (xy 19.747209 14.048248)
+				)
+			)
+			(polygon
+				(pts
+					(xy 18.72896 13.793625) (xy 18.72896 14.048248) (xy 19.492586 14.048248) (xy 19.492586 13.793625)
+				)
+			)
+			(polygon
+				(pts
+					(xy 20.254501 13.793625) (xy 20.254501 15.83) (xy 20.509002 15.83) (xy 20.509002 14.557372) (xy 20.763626 14.557372)
+					(xy 20.763626 14.302749) (xy 20.509002 14.302749) (xy 20.509002 13.793625)
+				)
+			)
+			(polygon
+				(pts
+					(xy 21.272628 15.066374) (xy 21.272628 15.83) (xy 21.527251 15.83) (xy 21.527251 13.793625) (xy 21.272628 13.793625)
+					(xy 21.272628 14.811873) (xy 21.018127 14.811873) (xy 21.018127 15.066374)
+				)
+			)
+			(polygon
+				(pts
+					(xy 21.018127 14.811873) (xy 21.018127 14.557372) (xy 20.763626 14.557372) (xy 20.763626 14.811873)
+				)
+			)
+			(polygon
+				(pts
+					(xy 22.798168 14.048248) (xy 22.798168 15.575498) (xy 23.052669 15.575498) (xy 23.052669 14.048248)
+				)
+			)
+			(polygon
+				(pts
+					(xy 22.543667 15.575498) (xy 22.543667 15.83) (xy 22.798168 15.83) (xy 22.798168 15.575498)
+				)
+			)
+			(polygon
+				(pts
+					(xy 22.289044 15.83) (xy 22.289044 16.084623) (xy 22.543667 16.084623) (xy 22.543667 15.83)
+				)
+			)
+			(polygon
+				(pts
+					(xy 22.289044 13.539124) (xy 22.289044 13.793625) (xy 22.543667 13.793625) (xy 22.543667 13.539124)
+				)
+			)
+			(polygon
+				(pts
+					(xy 22.798168 14.048248) (xy 22.798168 13.793625) (xy 22.543667 13.793625) (xy 22.543667 14.048248)
+				)
+			)
+		)
+	)
+	(gr_text "ON"
+		(at 20 30 0)
+		(layer "F.SilkS")
+		(uuid "a2c45a65-4a92-4f65-bcaa-bc310df6696b")
+		(effects
+			(font
+				(face "Departure Mono")
+				(size 2 2)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "ON" 0
+			(polygon
+				(pts
+					(xy 18.47446 29.048248) (xy 18.47446 30.575498) (xy 18.728961 30.575498) (xy 18.728961 29.048248)
+				)
+			)
+			(polygon
+				(pts
+					(xy 18.728961 30.575498) (xy 18.728961 30.83) (xy 19.492586 30.83) (xy 19.492586 30.575498)
+				)
+			)
+			(polygon
+				(pts
+					(xy 19.492586 29.048248) (xy 19.492586 30.575498) (xy 19.747209 30.575498) (xy 19.747209 29.048248)
+				)
+			)
+			(polygon
+				(pts
+					(xy 18.728961 28.793625) (xy 18.728961 29.048248) (xy 19.492586 29.048248) (xy 19.492586 28.793625)
+				)
+			)
+			(polygon
+				(pts
+					(xy 20.254501 28.793625) (xy 20.254501 30.83) (xy 20.509002 30.83) (xy 20.509002 29.557372) (xy 20.763626 29.557372)
+					(xy 20.763626 29.302749) (xy 20.509002 29.302749) (xy 20.509002 28.793625)
+				)
+			)
+			(polygon
+				(pts
+					(xy 21.272628 30.066374) (xy 21.272628 30.83) (xy 21.527251 30.83) (xy 21.527251 28.793625) (xy 21.272628 28.793625)
+					(xy 21.272628 29.811873) (xy 21.018127 29.811873) (xy 21.018127 30.066374)
+				)
+			)
+			(polygon
+				(pts
+					(xy 21.018127 29.811873) (xy 21.018127 29.557372) (xy 20.763626 29.557372) (xy 20.763626 29.811873)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
