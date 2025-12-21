@@ -1,0 +1,2 @@
+#this ignores those pesky 'this other file is open somewhere' files
+.~lock.*
