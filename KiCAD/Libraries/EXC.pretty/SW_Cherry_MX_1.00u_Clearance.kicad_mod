@@ -1,0 +1,117 @@
+(footprint "SW_Cherry_MX_1.00u_Clearance"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
+	(tags "Cherry MX keyswitch 1.00u plate")
+	(property "Reference" "REF**"
+		(at 0.5 -9 0)
+		(layer "F.SilkS")
+		(uuid "77c3bbfe-e280-468a-bc19-d0a64a76046c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Cherry_MX_1.00u_Panel_Mount"
+		(at 0 9 0)
+		(layer "F.Fab")
+		(uuid "35f469b4-9993-4143-ac50-f73747253526")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+		(at -12.5 15.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba6a04b4-03d3-4581-bd48-71347b918428")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(property "Description" "Cherry-MX panel mount mechanical switch"
+		(at -12.5 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db48dbe1-18fb-4b64-bb9b-819141e057b6")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(property "Source" "https://www.adafruit.com/product/4954"
+		(at -12.5 14 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "fcaaceab-9156-4348-9930-e5d13eb13fe1")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.525 -9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "99f2d009-8655-429e-ab06-373d8a775d56")
+	)
+	(fp_rect
+		(start -8.025 -8.025)
+		(end 8.025 8.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "7086d7c8-a718-4147-a006-d07909775911")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9 0)
+		(layer "F.Fab")
+		(uuid "75dec930-8816-4d5e-bbdf-db4871164012")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_Plate.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
