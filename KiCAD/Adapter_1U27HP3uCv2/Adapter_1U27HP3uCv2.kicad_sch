@@ -2,10 +2,10 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "2acd20b7-420e-4558-b3b1-17da0d20f2d4")
+	(uuid "13482b34-9cab-40bf-8cce-e9e116371c8b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EXC:Eurorack_M3_MountingHole"
+		(symbol "EXC:Eurorack_M5_MountingHole_Rail"
 			(pin_names
 				(offset 1.016)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "Eurorack_M3_MountingHole"
+			(property "Value" "Eurorack_M5_MountingHole"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EXC:MountingHole_3.2mm_M3"
+			(property "Footprint" "EXC:MountingHole_5.2mm_M5"
 				(at 0 -5.588 0)
 				(effects
 					(font
@@ -38,7 +38,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -73,22 +73,32 @@
 					(hide yes)
 				)
 			)
-			(symbol "Eurorack_M3_MountingHole_0_1"
-				(polyline
-					(pts
-						(xy -0.635 0.762) (xy 0.635 0.762)
-					)
+			(symbol "Eurorack_M5_MountingHole_Rail_0_1"
+				(circle
+					(center -0.889 0)
+					(radius 1.016)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.762 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(circle
 					(center -0.635 0)
-					(radius 0.762)
+					(radius 1.016)
 					(stroke
 						(width 0)
 						(type default)
@@ -98,33 +108,9 @@
 					)
 				)
 				(arc
-					(start -0.635 -0.762)
-					(mid -1.397 0)
-					(end -0.635 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start -0.635 -1.778)
 					(mid -2.413 0)
 					(end -0.635 1.778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.762) (xy 0.635 -0.762)
-					)
 					(stroke
 						(width 0)
 						(type default)
@@ -146,8 +132,96 @@
 					)
 				)
 				(circle
+					(center -0.508 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.254 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.127 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
 					(center 0 0)
-					(radius 0.762)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0.127 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0.254 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0.508 0)
+					(radius 1.016)
 					(stroke
 						(width 0)
 						(type default)
@@ -180,21 +254,31 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0.6227 0.762)
-					(mid 1.3971 0)
-					(end 0.6227 -0.762)
+				(circle
+					(center 0.635 0)
+					(radius 1.016)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(circle
-					(center 0.635 0)
-					(radius 0.762)
+					(center 0.762 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0.889 0)
+					(radius 1.016)
 					(stroke
 						(width 0)
 						(type default)
@@ -303,81 +387,17 @@
 		)
 	)
 	(symbol
-		(lib_id "EXC:Eurorack_M3_MountingHole")
-		(at 25.4 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03036a16-30a0-4d79-8d43-93027c14afb3")
-		(property "Reference" "H1"
-			(at 29.21 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Eurorack_M3_MountingHole"
-			(at 29.21 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EXC:MountingHole_3.2mm_M3"
-			(at 25.4 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 25.4 28.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/2acd20b7-420e-4558-b3b1-17da0d20f2d4"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
-		(at 25.4 33.02 0)
+		(at 63.5 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3933c9f6-cb5c-4bb8-ba82-14c9da235252")
+		(uuid "0a2d2028-21f4-4f3c-a76f-7fdfd1ec8491")
 		(property "Reference" "MP1"
-			(at 27.94 31.7499 0)
+			(at 66.04 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -386,7 +406,7 @@
 			)
 		)
 		(property "Value" "Mechanical_Pad_Solder_Linkage"
-			(at 27.94 34.2899 0)
+			(at 66.04 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,7 +415,7 @@
 			)
 		)
 		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
-			(at 15.748 39.878 0)
+			(at 53.848 44.958 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -405,7 +425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 33.02 0)
+			(at 63.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -414,7 +434,7 @@
 			)
 		)
 		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
-			(at 15.748 38.608 0)
+			(at 53.848 43.688 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -424,11 +444,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "88c4d0a9-4314-44d6-ab68-be4dd3c09f34")
+			(uuid "fca66bb8-63ca-46cd-b7b9-9275eb57e3ab")
 		)
 		(instances
 			(project ""
-				(path "/2acd20b7-420e-4558-b3b1-17da0d20f2d4"
+				(path "/13482b34-9cab-40bf-8cce-e9e116371c8b"
 					(reference "MP1")
 					(unit 1)
 				)
@@ -437,154 +457,16 @@
 	)
 	(symbol
 		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
-		(at 25.4 41.91 0)
+		(at 63.5 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "46d527c2-7789-450b-bf53-4cb25f8fee8f")
-		(property "Reference" "MP2"
-			(at 27.94 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mechanical_Pad_Solder_Linkage"
-			(at 27.94 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
-			(at 15.748 48.768 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
-			(at 15.748 47.498 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75a9e972-c31c-4dbe-a998-60d414708504")
-		)
-		(instances
-			(project "Adapter_1U27HP3uAv2"
-				(path "/2acd20b7-420e-4558-b3b1-17da0d20f2d4"
-					(reference "MP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
-		(at 101.6 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d0ed392-0943-4d25-8b2c-9b3ed682532d")
-		(property "Reference" "MP5"
-			(at 104.14 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mechanical_Pad_Solder_Linkage"
-			(at 104.14 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
-			(at 91.948 39.878 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
-			(at 91.948 38.608 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f091742-06a4-445c-9161-72f1573f0cf2")
-		)
-		(instances
-			(project "Adapter_1U27HP3uAv2"
-				(path "/2acd20b7-420e-4558-b3b1-17da0d20f2d4"
-					(reference "MP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
-		(at 63.5 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e3e60f8-1de2-475a-92c8-a4db793b5ca4")
+		(uuid "0be906bb-84db-4cbe-8e93-e189a876b8ea")
 		(property "Reference" "MP3"
-			(at 66.04 31.7499 0)
+			(at 66.04 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,7 +475,7 @@
 			)
 		)
 		(property "Value" "Mechanical_Pad_Solder_Linkage"
-			(at 66.04 34.2899 0)
+			(at 66.04 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,7 +484,7 @@
 			)
 		)
 		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
-			(at 53.848 39.878 0)
+			(at 53.848 60.198 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -612,7 +494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 33.02 0)
+			(at 63.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,7 +503,7 @@
 			)
 		)
 		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
-			(at 53.848 38.608 0)
+			(at 53.848 58.928 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -631,11 +513,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6f6a0a5-62c2-4fbf-b2d5-4e10681aa585")
+			(uuid "c7b03450-d551-41b8-891d-24883c43cbb4")
 		)
 		(instances
-			(project "Adapter_1U27HP3uAv2"
-				(path "/2acd20b7-420e-4558-b3b1-17da0d20f2d4"
+			(project "Adapter_1U27HP3uCv2"
+				(path "/13482b34-9cab-40bf-8cce-e9e116371c8b"
 					(reference "MP3")
 					(unit 1)
 				)
@@ -643,17 +525,17 @@
 		)
 	)
 	(symbol
-		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
-		(at 101.6 41.91 0)
+		(lib_id "EXC:Eurorack_M5_MountingHole_Rail")
+		(at 25.4 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8353b0f4-7a1a-4fc7-89cf-10e373d44e23")
-		(property "Reference" "MP6"
-			(at 104.14 40.6399 0)
+		(uuid "443c3d09-bed2-4963-9390-40ba0dcf958f")
+		(property "Reference" "H5"
+			(at 29.21 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -661,8 +543,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Mechanical_Pad_Solder_Linkage"
-			(at 104.14 43.1799 0)
+		(property "Value" "Eurorack_M5_MountingHole"
+			(at 29.21 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,146 +552,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
-			(at 91.948 48.768 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
-			(at 91.948 47.498 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3792ea90-5952-4e3c-8a5b-fd7e042dcb11")
-		)
-		(instances
-			(project "Adapter_1U27HP3uAv2"
-				(path "/2acd20b7-420e-4558-b3b1-17da0d20f2d4"
-					(reference "MP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
-		(at 63.5 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96947e91-c3b0-4c83-bf84-d018cb47854e")
-		(property "Reference" "MP4"
-			(at 66.04 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Mechanical_Pad_Solder_Linkage"
-			(at 66.04 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
-			(at 53.848 48.768 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
-			(at 53.848 47.498 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21c5b746-3b46-4467-9f96-77e96d60a833")
-		)
-		(instances
-			(project "Adapter_1U27HP3uAv2"
-				(path "/2acd20b7-420e-4558-b3b1-17da0d20f2d4"
-					(reference "MP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EXC:Eurorack_M3_MountingHole")
-		(at 25.4 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1e2e158-616e-49bd-9599-3fb29ac971e9")
-		(property "Reference" "H2"
-			(at 29.21 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Eurorack_M3_MountingHole"
-			(at 29.21 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EXC:MountingHole_3.2mm_M3"
-			(at 25.4 56.388 0)
+		(property "Footprint" "EXC:MountingHole_5.2mm_M5"
+			(at 25.4 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,7 +562,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 50.8 0)
+			(at 25.4 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -827,7 +571,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 25.4 54.102 0)
+			(at 25.4 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -836,9 +580,605 @@
 			)
 		)
 		(instances
-			(project "Adapter_1U27HP3uAv2"
-				(path "/2acd20b7-420e-4558-b3b1-17da0d20f2d4"
+			(project "Adapter_1U27HP3uCv2"
+				(path "/13482b34-9cab-40bf-8cce-e9e116371c8b"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
+		(at 63.5 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d3708a0-e18e-4dfc-a6c5-62965e17c440")
+		(property "Reference" "MP6"
+			(at 66.04 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mechanical_Pad_Solder_Linkage"
+			(at 66.04 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
+			(at 53.848 83.058 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
+			(at 53.848 81.788 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff4672c3-e141-480f-aa1d-fcd0b44027bd")
+		)
+		(instances
+			(project "Adapter_1U27HP3uCv2"
+				(path "/13482b34-9cab-40bf-8cce-e9e116371c8b"
+					(reference "MP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Eurorack_M5_MountingHole_Rail")
+		(at 25.4 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a344b6e6-742b-4869-ae09-a624b6fa8123")
+		(property "Reference" "H6"
+			(at 29.21 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eurorack_M5_MountingHole"
+			(at 29.21 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:MountingHole_5.2mm_M5"
+			(at 25.4 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Adapter_1U27HP3uCv2"
+				(path "/13482b34-9cab-40bf-8cce-e9e116371c8b"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Eurorack_M5_MountingHole_Rail")
+		(at 25.4 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4a986d9-cfdb-403e-8d19-b4c8de14d390")
+		(property "Reference" "H3"
+			(at 29.21 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eurorack_M5_MountingHole"
+			(at 29.21 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:MountingHole_5.2mm_M5"
+			(at 25.4 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Adapter_1U27HP3uCv2"
+				(path "/13482b34-9cab-40bf-8cce-e9e116371c8b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
+		(at 63.5 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5e15b4d-2f29-43d3-9ad1-b07159cb289d")
+		(property "Reference" "MP4"
+			(at 66.04 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mechanical_Pad_Solder_Linkage"
+			(at 66.04 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
+			(at 53.848 67.818 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
+			(at 53.848 66.548 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62e43fa8-05e0-42c6-b9ed-28893631cbeb")
+		)
+		(instances
+			(project "Adapter_1U27HP3uCv2"
+				(path "/13482b34-9cab-40bf-8cce-e9e116371c8b"
+					(reference "MP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
+		(at 63.5 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b98acc10-9315-4c9e-9fdd-c5ec11c13b2f")
+		(property "Reference" "MP2"
+			(at 66.04 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mechanical_Pad_Solder_Linkage"
+			(at 66.04 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
+			(at 53.848 52.578 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
+			(at 53.848 51.308 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "352037de-f8c8-4a9c-bf75-7fe61639de7f")
+		)
+		(instances
+			(project "Adapter_1U27HP3uCv2"
+				(path "/13482b34-9cab-40bf-8cce-e9e116371c8b"
+					(reference "MP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Eurorack_M5_MountingHole_Rail")
+		(at 25.4 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5485325-75c7-43b1-9f5d-f6b068d8162c")
+		(property "Reference" "H1"
+			(at 29.21 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eurorack_M5_MountingHole"
+			(at 29.21 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:MountingHole_5.2mm_M5"
+			(at 25.4 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/13482b34-9cab-40bf-8cce-e9e116371c8b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
+		(at 63.5 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9d8e007-8e44-4c90-82c8-8d23c7cda5a8")
+		(property "Reference" "MP5"
+			(at 66.04 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mechanical_Pad_Solder_Linkage"
+			(at 66.04 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
+			(at 53.848 75.438 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
+			(at 53.848 74.168 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13bc13d2-a285-470d-bdef-f22c62dd2e1f")
+		)
+		(instances
+			(project "Adapter_1U27HP3uCv2"
+				(path "/13482b34-9cab-40bf-8cce-e9e116371c8b"
+					(reference "MP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Eurorack_M5_MountingHole_Rail")
+		(at 25.4 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f023af00-f84a-48c2-8065-445e81808459")
+		(property "Reference" "H2"
+			(at 29.21 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eurorack_M5_MountingHole"
+			(at 29.21 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:MountingHole_5.2mm_M5"
+			(at 25.4 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Adapter_1U27HP3uCv2"
+				(path "/13482b34-9cab-40bf-8cce-e9e116371c8b"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Eurorack_M5_MountingHole_Rail")
+		(at 25.4 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8602c36-2a75-4055-a643-91e1f77b8ab1")
+		(property "Reference" "H4"
+			(at 29.21 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eurorack_M5_MountingHole"
+			(at 29.21 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:MountingHole_5.2mm_M5"
+			(at 25.4 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Adapter_1U27HP3uCv2"
+				(path "/13482b34-9cab-40bf-8cce-e9e116371c8b"
+					(reference "H4")
 					(unit 1)
 				)
 			)
