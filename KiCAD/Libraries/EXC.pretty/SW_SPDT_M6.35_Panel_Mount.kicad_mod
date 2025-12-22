@@ -1,0 +1,187 @@
+(footprint "SW_SPDT_M6.35_Panel_Mount"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2f057f9b-1949-49ca-ae94-4126e251b18e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT_M6.35_Panel_Mount"
+		(at 0 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a8589bca-aaf8-4de4-b152-36fe1017173f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ae01.alicdn.com/kf/S30ba4cd8ca6748179fcb108112fb1d3fP.jpg"
+		(at -10 14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4148bd7-4d22-4e2e-b14c-1feb5798c3f0")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(property "Description" "Single Pole Dual-Throw (SPDT) M6.35 panel-mount switch"
+		(at -10 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed4d7d45-9d1a-4de2-9fa4-34d02182a2eb")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(property "Source" "https://www.aliexpress.com/item/4000512396094.html"
+		(at -10 12.5 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "9d6b8993-7b47-4457-ae41-609bacb64849")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "499518ec-6d9d-42ea-92be-d0706f8b4fa5")
+	)
+	(fp_line
+		(start -3.175 -0.425)
+		(end -2.625 -0.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9ddf1419-8a6e-4428-8a1b-56bb0bbfd8d1")
+	)
+	(fp_line
+		(start -3.175 0.425)
+		(end -2.625 0.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5dc71731-c807-4614-a119-17019d360859")
+	)
+	(fp_line
+		(start -2.625 -0.425)
+		(end -2.625 0.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c774980f-e9fd-466a-bbf2-81a1bb1b8fa3")
+	)
+	(fp_arc
+		(start -3.175 -0.425)
+		(mid 3.203319 0)
+		(end -3.175 0.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c133eeb6-ae5d-4f65-a583-860f4f5e04b0")
+	)
+	(fp_rect
+		(start -6.6 -3.95)
+		(end 6.6 3.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "43dec3c8-3abd-4089-a6ee-10eb1d399041")
+	)
+	(fp_rect
+		(start -3.95 -6.6)
+		(end 3.95 6.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "71e99dc1-757b-4710-ac7c-0b778f6a4409")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "edee5155-cf4a-409c-9e2f-9e9c46bfa4f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at -6.4 0)
+		(size 2 2.4)
+		(drill oval 2 2.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "45501967-a9f8-4dd2-9484-171a2c209cfa")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 -6.4)
+		(size 2.4 2)
+		(drill oval 2.4 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4a5f7159-b09e-421c-9924-9c2c48e27a62")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 6.4008)
+		(size 2.4 2)
+		(drill oval 2.4 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "71d9494c-8f97-4331-97ca-7ca20a3d8ad8")
+	)
+	(pad "" np_thru_hole oval
+		(at 6.4 0)
+		(size 2 2.4)
+		(drill oval 2 2.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "49411029-ce4a-4cec-bccd-6c524f594ea7")
+	)
+	(embedded_fonts no)
+)
