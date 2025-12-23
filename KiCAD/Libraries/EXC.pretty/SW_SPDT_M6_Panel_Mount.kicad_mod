@@ -81,6 +81,18 @@
 		(layer "Dwgs.User")
 		(uuid "499518ec-6d9d-42ea-92be-d0706f8b4fa5")
 	)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy 2.5 5) (xy -2.5 5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "6211522f-01e1-4c0e-b2af-a1d9d56721b7")
+	)
 	(fp_rect
 		(start -6.6 -3.95)
 		(end 6.6 3.95)
@@ -116,6 +128,13 @@
 		)
 	)
 	(pad "" np_thru_hole oval
+		(at -6.4 0)
+		(size 2 2.4)
+		(drill oval 2 2.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "898e6a9a-8715-4ec3-8080-a87710b7907c")
+	)
+	(pad "" np_thru_hole oval
 		(at 0 -6.4)
 		(size 2.4 2)
 		(drill oval 2.4 2)
@@ -128,6 +147,13 @@
 		(drill 6)
 		(layers "*.Cu" "*.Mask")
 		(uuid "e27b1d63-2641-4032-b1bc-b5cab1607c49")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 6.4)
+		(size 2.4 2)
+		(drill oval 2.4 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3be478ca-9e46-45ac-93b5-4b018983d969")
 	)
 	(pad "" np_thru_hole oval
 		(at 6.4 0)
