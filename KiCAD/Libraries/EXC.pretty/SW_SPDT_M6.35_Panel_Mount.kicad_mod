@@ -80,47 +80,6 @@
 		(layer "Dwgs.User")
 		(uuid "499518ec-6d9d-42ea-92be-d0706f8b4fa5")
 	)
-	(fp_line
-		(start -3.175 -0.425)
-		(end -2.625 -0.425)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "9ddf1419-8a6e-4428-8a1b-56bb0bbfd8d1")
-	)
-	(fp_line
-		(start -3.175 0.425)
-		(end -2.625 0.425)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "5dc71731-c807-4614-a119-17019d360859")
-	)
-	(fp_line
-		(start -2.625 -0.425)
-		(end -2.625 0.425)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c774980f-e9fd-466a-bbf2-81a1bb1b8fa3")
-	)
-	(fp_arc
-		(start -3.175 -0.425)
-		(mid 3.203319 0)
-		(end -3.175 0.425)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c133eeb6-ae5d-4f65-a583-860f4f5e04b0")
-	)
 	(fp_rect
 		(start -6.6 -3.95)
 		(end 6.6 3.95)
@@ -168,6 +127,13 @@
 		(drill oval 2.4 2)
 		(layers "*.Cu" "*.Mask")
 		(uuid "4a5f7159-b09e-421c-9924-9c2c48e27a62")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 6.35 6.35)
+		(drill 6.35)
+		(layers "*.Cu" "*.Mask")
+		(uuid "61d46103-6c23-42a7-9781-41847ad6953d")
 	)
 	(pad "" np_thru_hole oval
 		(at 0 6.4008)
