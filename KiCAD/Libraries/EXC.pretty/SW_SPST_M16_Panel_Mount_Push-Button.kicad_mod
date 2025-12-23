@@ -1,0 +1,115 @@
+(footprint "SW_SPST_M16_Panel_Mount_Push-Button"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9.5 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "2f057f9b-1949-49ca-ae94-4126e251b18e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "SW_SPST_M16_Panel_Mount_Push-Button"
+		(at 0 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a8589bca-aaf8-4de4-b152-36fe1017173f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ae01.alicdn.com/kf/Hb7108e41e3624ebcb499960f1397143a2.jpg"
+		(at -10 14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4148bd7-4d22-4e2e-b14c-1feb5798c3f0")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(property "Description" "Single Pole Single-Throw (SPST) M16 panel-mount Push-Button switch"
+		(at -10 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed4d7d45-9d1a-4de2-9fa4-34d02182a2eb")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(property "Source" "https://www.aliexpress.com/item/4000830670631.html"
+		(at -10 12.5 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "9d6b8993-7b47-4457-ae41-609bacb64849")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "16250dcc-27fb-4357-8b13-d681ac201d3b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 10.3923 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "499518ec-6d9d-42ea-92be-d0706f8b4fa5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "edee5155-cf4a-409c-9e2f-9e9c46bfa4f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 16 16)
+		(drill 16)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e27b1d63-2641-4032-b1bc-b5cab1607c49")
+	)
+	(embedded_fonts no)
+)
