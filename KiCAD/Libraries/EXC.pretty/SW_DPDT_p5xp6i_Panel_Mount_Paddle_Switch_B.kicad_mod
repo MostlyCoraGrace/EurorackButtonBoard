@@ -1,0 +1,215 @@
+(footprint "SW_DPDT_p5xp6i_Panel_Mount_Paddle_Switch_B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -11 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "2f057f9b-1949-49ca-ae94-4126e251b18e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "SW_DPDT_p5xp6i_Panel_Mount_Paddle_Switch_B"
+		(at 0 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a8589bca-aaf8-4de4-b152-36fe1017173f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ae01.alicdn.com/kf/H1970d0d9a30c4d039488acb0367c7727Z.jpg"
+		(at -10 14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4148bd7-4d22-4e2e-b14c-1feb5798c3f0")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(property "Description" "Dual Pole Dual-Throw (DPDT) 0.5\"x0.6\" panel-mount paddle switch"
+		(at -10 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed4d7d45-9d1a-4de2-9fa4-34d02182a2eb")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(property "Source" "https://www.aliexpress.com/item/4000545485594.html"
+		(at -10 12.5 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "9d6b8993-7b47-4457-ae41-609bacb64849")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.715 -6.5725)
+		(end 5.715 6.5725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "c7882fbd-cbe4-42f8-bb5c-b11e57b8e50c")
+	)
+	(fp_poly
+		(pts
+			(xy -3.75 0) (xy -5.715 -6.5725) (xy 5.715 -6.5725) (xy 3.75 0)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "61001705-3004-4025-991d-18370b95d69a")
+	)
+	(fp_line
+		(start -8.01 9.665)
+		(end -8.009999 -9.665)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "578b7ab8-4c4c-4565-9d5e-d915b83ed815")
+	)
+	(fp_line
+		(start -7.76 -9.915)
+		(end 7.76 -9.915)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "58791698-2896-4613-a91a-e05a8cc47e81")
+	)
+	(fp_line
+		(start 7.76 9.915)
+		(end -7.76 9.914999)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9e0ff3c3-a521-4e35-b5e2-83b1bd5df8df")
+	)
+	(fp_line
+		(start 8.01 -9.665)
+		(end 8.01 9.665)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6ceae6fd-5b2c-4ea1-a8fb-0a5f66f34635")
+	)
+	(fp_arc
+		(start -8.01 -9.665)
+		(mid -8.186777 -10.091777)
+		(end -7.76 -9.915)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7725aaed-cc92-42d4-804c-753c08735c81")
+	)
+	(fp_arc
+		(start -7.76 9.915)
+		(mid -8.186777 10.091777)
+		(end -8.01 9.665)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "225b64bc-2c7e-4d27-9f99-54f55913bf84")
+	)
+	(fp_arc
+		(start 7.76 -9.915)
+		(mid 8.186777 -10.091777)
+		(end 8.01 -9.665)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0f2b0328-492f-4c9b-b00f-792d48b64c2d")
+	)
+	(fp_arc
+		(start 8.01 9.665)
+		(mid 8.186777 10.091777)
+		(end 7.76 9.915)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "baa1e195-3242-419f-8f98-84f09c91120a")
+	)
+	(fp_rect
+		(start -7.81 -9.715)
+		(end 7.81 9.715)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "71e99dc1-757b-4710-ac7c-0b778f6a4409")
+	)
+	(fp_rect
+		(start -7.81 -9.715)
+		(end 7.81 9.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b5c2c9d9-3a2a-4805-8ac7-8bf22536ba32")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "edee5155-cf4a-409c-9e2f-9e9c46bfa4f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
