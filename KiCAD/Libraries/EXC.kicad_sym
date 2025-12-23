@@ -1889,6 +1889,94 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SW_M6/6.35_Panel_Mount_Hole"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_M6/M6.35_Panel_Mount_Hole"
+			(at 0 -2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXC:SW_M6-M6.35_Panel_Mount_Hole"
+			(at -10.16 -5.08 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ae01.alicdn.com/kf/S30ba4cd8ca6748179fcb108112fb1d3fP.jpg"
+			(at -10.16 -7.112 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hole for the top of the panel of the switch so it allows space for the M6-ish nut to sit inside"
+			(at -10.16 -4.064 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.aliexpress.com/item/4000512396094.html"
+			(at -10.16 -6.096 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch lever"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_M6/6.35_Panel_Mount_Hole_0_0"
+			(circle
+				(center 0 0)
+				(radius 1.6129)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SW_SPDT-M6.35_Panel_Mount"
 		(pin_names
 			(offset 0)
