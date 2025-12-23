@@ -1,18 +1,19 @@
 (footprint "Rotary_Selector_Panel_Mount_M9"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -9 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "6634bc4f-4e60-471c-9f86-536eeeba4de3")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.1)
 			)
+			(justify mirror)
 		)
 	)
 	(property "Value" "Rotary_Selector_Panel_Mount_M9"
@@ -20,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e1601248-bcb4-4c9e-a77d-98d2d197ddf9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "EXC:Rotary_Encoder_M9"
-		(at 0 11.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4e82d9ee-8c18-46c4-a09d-5a8c50e8d6df")
 		(effects
 			(font
 				(size 1 1)
@@ -89,7 +77,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "d8bfa86b-74f8-4496-9aa9-0f9e94338e22")
 	)
@@ -100,7 +88,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "f3b15f2e-97df-4a3d-926b-d8096f6f170c")
 	)
@@ -120,7 +108,8 @@
 		(at 0 0)
 		(size 9 9)
 		(drill 9)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "e109ae9e-fce3-4be9-a826-0eed6c2d6b52")
 	)
+	(embedded_fonts no)
 )

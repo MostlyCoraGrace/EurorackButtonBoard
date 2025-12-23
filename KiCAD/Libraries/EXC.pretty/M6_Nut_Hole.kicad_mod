@@ -6,13 +6,14 @@
 	(property "Reference" "REF**"
 		(at 0 -6 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "1e032646-17ae-4371-ae01-eb12e5fc1a8d")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.1)
 			)
+			(justify mirror)
 		)
 	)
 	(property "Value" "M6_Nut_Hole"
@@ -81,7 +82,7 @@
 		(at 0 0)
 		(size 10.5 10.5)
 		(drill 10.5)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "5a88295d-0c6f-4000-8b48-15046d037838")
 	)
 	(embedded_fonts no)

@@ -7,14 +7,14 @@
 	(tags "mounting hole 3.2mm no annular m3")
 	(property "Reference" "REF**"
 		(at -3.683 0 0)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "6b2f9f3e-9c04-460e-ab7e-be9d66dfc170")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify right)
+			(justify left mirror)
 		)
 	)
 	(property "Value" "MountingHole_3.2mm_M3"
@@ -104,7 +104,7 @@
 		(at 0 0)
 		(size 4.34 3.2)
 		(drill oval 4.34 3.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "fa055336-61f5-479c-bf43-b9204a2cfbf2")
 	)
 	(embedded_fonts no)

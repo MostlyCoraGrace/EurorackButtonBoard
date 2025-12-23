@@ -7,13 +7,14 @@
 	(tags "Cherry MX keyswitch 1.00u plate")
 	(property "Reference" "REF**"
 		(at 0.5 -9 0)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "77c3bbfe-e280-468a-bc19-d0a64a76046c")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify mirror)
 		)
 	)
 	(property "Value" "SW_Cherry_MX_1.00u_Panel_Mount"

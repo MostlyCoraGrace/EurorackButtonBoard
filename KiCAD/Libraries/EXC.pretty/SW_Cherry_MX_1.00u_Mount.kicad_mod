@@ -1,19 +1,20 @@
 (footprint "SW_Cherry_MX_1.00u_Mount"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Cherry MX keyswitch, 1.00u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 	(tags "Cherry MX keyswitch 1.00u plate")
 	(property "Reference" "REF**"
 		(at 0.5 -8 0)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "77c3bbfe-e280-468a-bc19-d0a64a76046c")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify mirror)
 		)
 	)
 	(property "Value" "SW_Cherry_MX_1.00u_Panel_Mount"
@@ -25,20 +26,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-		)
-	)
-	(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
-		(at -12.5 12.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d4f94afb-6205-4466-970a-8c52c442249f")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.1)
-			)
-			(justify left)
 		)
 	)
 	(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
@@ -90,7 +77,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "99f2d009-8655-429e-ab06-373d8a775d56")
 	)
@@ -101,7 +88,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "7086d7c8-a718-4147-a006-d07909775911")
 	)
@@ -116,6 +103,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_Plate.wrl"
 		(offset
 			(xyz 0 0 0)

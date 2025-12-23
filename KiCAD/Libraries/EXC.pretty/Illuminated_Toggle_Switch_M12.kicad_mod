@@ -1,18 +1,19 @@
 (footprint "Illuminated_Toggle_Switch_M12"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -7 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "15d36448-76a3-461c-957d-6816e5ed4dfe")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.1)
 			)
+			(justify mirror)
 		)
 	)
 	(property "Value" "Illuminated_Toggle_Switch_M12"
@@ -25,20 +26,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-		)
-	)
-	(property "Footprint" "EXC:Illuminated_Toggle_Switch_M12"
-		(at -17.5 11 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7abbe363-e731-4cc0-ac33-f482dc39ee9a")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.1)
-			)
-			(justify left)
 		)
 	)
 	(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3219/LEDtoggle_switch_diagram.jpg"
@@ -130,7 +117,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "d5b82460-df5c-4d9b-a857-999dcce7994b")
 	)
@@ -146,4 +133,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

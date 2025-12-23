@@ -1,18 +1,19 @@
 (footprint "Linear_Potentiometer_75mm_M2_Panel_Mount"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -39.5 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "e47d0006-cb23-4771-a54a-34b7b9a878ee")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.1)
 			)
+			(justify mirror)
 		)
 	)
 	(property "Value" "Linear_Potentiometer_75mm_M2_Panel_Mount"
@@ -20,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b59040d8-1433-4f12-ab04-588f601b7739")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "EXC:Linear_Potentiometer_75mm_M2_Panel_Mount"
-		(at 0 40.64 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a81090ef-3b9b-456d-8698-196370f7c494")
 		(effects
 			(font
 				(size 1 1)
@@ -259,7 +247,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "Dwgs.User")
 		(uuid "b25f9522-e1fa-415c-a6b6-4bed081cbfaf")
 	)
@@ -314,7 +302,7 @@
 			(width 0.5)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "ec010e23-7097-4c5d-a234-5da67af1b3fc")
 	)
@@ -334,21 +322,22 @@
 		(at 0 -35.5)
 		(size 2.2 2.2)
 		(drill 2.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "612ffc41-f333-4ad1-a87f-5cd4dd8753bf")
 	)
 	(pad "" np_thru_hole oval
 		(at 0 0)
 		(size 2.2 67.2)
 		(drill oval 2.2 67.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "ad181f42-0ab9-4c95-a714-bb5033c4db80")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 35.5)
 		(size 2.2 2.2)
 		(drill 2.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "09b8d11a-cfb0-4f45-a0aa-39e19aa07f62")
 	)
+	(embedded_fonts no)
 )

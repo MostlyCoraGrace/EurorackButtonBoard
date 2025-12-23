@@ -7,14 +7,14 @@
 	(tags "mounting hole 5.2mm no annular m5")
 	(property "Reference" "REF**"
 		(at -4.5 0 0)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "6b2f9f3e-9c04-460e-ab7e-be9d66dfc170")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify right)
+			(justify left mirror)
 		)
 	)
 	(property "Value" "MountingHole_5.2mm_M5"

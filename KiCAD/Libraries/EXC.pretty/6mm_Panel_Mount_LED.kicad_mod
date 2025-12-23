@@ -6,13 +6,14 @@
 	(property "Reference" "REF**"
 		(at 0 -5 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "0b1dadd9-9118-488c-a248-00f942c41baa")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.1)
 			)
+			(justify mirror)
 		)
 	)
 	(property "Value" "6mm_Panel_Mount_LED"
@@ -92,7 +93,7 @@
 		(at 0 0)
 		(size 6.2 6.2)
 		(drill 6.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "ab7aab7e-b62b-4d1d-896c-145d86dc2c15")
 	)
 	(embedded_fonts no)
