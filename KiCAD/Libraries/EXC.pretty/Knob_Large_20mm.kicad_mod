@@ -1,10 +1,10 @@
-(footprint "Rotary_Potentiometer_M7_Panel_Mount"
+(footprint "Knob_Large_20mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -4.75 0)
+		(at 0 -10 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "9dfa3f4a-d43b-46ca-9acd-a0956f22b9b2")
@@ -16,7 +16,7 @@
 			(justify mirror)
 		)
 	)
-	(property "Value" "Rotary_Potentiometer_M7_Panel_Mount"
+	(property "Value" "20mm Large Knob"
 		(at 0 10 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/562/p160.pdf"
+	(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5528/Datasheet.pdf"
 		(at -10 15.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -42,7 +42,7 @@
 			(justify left top)
 		)
 	)
-	(property "Description" "A panel-mounted M7 rotary linear potentiometer"
+	(property "Description" "20mm Large Knob"
 		(at 0 12.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -56,7 +56,7 @@
 			(justify top)
 		)
 	)
-	(property "Source" "https://www.adafruit.com/product/562"
+	(property "Source" "https://www.adafruit.com/product/5528"
 		(at -10 14 0)
 		(layer "Cmts.User")
 		(hide yes)
@@ -70,30 +70,42 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start 0 -8.5)
-		(end 13 8.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "2a61a879-5c88-4c1b-8bdc-9ac4758905e3")
-	)
 	(fp_circle
 		(center 0 0)
-		(end 8.5 0)
+		(end 9 0)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Dwgs.User")
 		(uuid "af27bade-661f-4277-bb3e-a29ca98f7308")
 	)
+	(fp_circle
+		(center 0 0)
+		(end 10 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e0915c80-5f01-4e6f-83ef-644b19a2b496")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -8) (xy -1 -7) (xy 1 -7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "9f4b2da5-d86e-4efe-bfb1-4c77c02e6098")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -4.75 0)
+		(at 0 -10 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "10a1abbf-3e3a-4e44-b3f1-6088512257b9")
@@ -106,17 +118,10 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
-		(size 7.5 7.5)
-		(drill 7.5)
+		(size 18.2 18.2)
+		(drill 18.2)
 		(layers "*.Cu" "*.Mask")
 		(uuid "aa9f9e08-c295-4f63-b892-8b457789b128")
-	)
-	(pad "" np_thru_hole circle
-		(at 0 7.8)
-		(size 3 3)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(uuid "f5ae690e-dec5-4a05-b97c-fee0fd4eca84")
 	)
 	(embedded_fonts no)
 )
