@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://ae01.alicdn.com/kf/Sb61e59cbd92d4751a636402ee4d65e3c9.jpg"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Two flat-head ultrathin hex bolts to hold a 25mm rod handle"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -51,6 +51,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source" "https://www.aliexpress.com/item/1005005070119421.html"
+		(at 0 36.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e607d628-dc2f-4479-9f5b-d41897197f69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)

@@ -820,8 +820,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://ae01.alicdn.com/kf/Sbc0cceeaa8fe4338b0ef3212e33d9ba8U.png"
+			(at 20.574 -18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,8 +829,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "The part of the 25mm handle that has the holes for the mounting screws"
+			(at 21.336 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.aliexpress.com/item/1005007242440186.html"
+			(at 13.97 -22.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,8 +913,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://ae01.alicdn.com/kf/Sb61e59cbd92d4751a636402ee4d65e3c9.jpg"
+			(at 21.082 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,8 +922,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "The part of the handle that has the holes for the screws' heads"
+			(at 16.764 -22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.aliexpress.com/item/1005005070119421.html"
+			(at 13.97 -18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://ae01.alicdn.com/kf/Sbc0cceeaa8fe4338b0ef3212e33d9ba8U.png"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "A  rounded rod handle, for furniture/cabinets. 25mm between holes, m3 5mm, a 6mm diameter rod."
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -51,6 +51,17 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source" "https://www.aliexpress.com/item/1005007242440186.html"
+		(at 0 36 0)
+		(layer "F.SilkS")
+		(uuid "7ad88458-ee1a-4dc8-b1df-697e3d3de955")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)
