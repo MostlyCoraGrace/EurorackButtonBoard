@@ -1,0 +1,127 @@
+(footprint "Knob_Medium_T18"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -10 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "9dfa3f4a-d43b-46ca-9acd-a0956f22b9b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "T18 Medium Knob"
+		(at 0 10.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b6c0b71-f0df-4022-a928-cca7633951e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/EPD-200732.pdf"
+		(at -10 15.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe6e15a3-4074-416a-b7d2-5755857c92c3")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(property "Description" "T18 Medium Knob"
+		(at 0 12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "386326c7-74e3-4cf1-b898-31e9c5366e6b")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(property "Source" "https://www.adafruit.com/product/2046"
+		(at -10 14 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "ee968d88-b954-4c52-a747-376427987e8b")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "af27bade-661f-4277-bb3e-a29ca98f7308")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 10 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e0915c80-5f01-4e6f-83ef-644b19a2b496")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -8) (xy -1 -7) (xy 1 -7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "9f4b2da5-d86e-4efe-bfb1-4c77c02e6098")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "10a1abbf-3e3a-4e44-b3f1-6088512257b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 18 18)
+		(drill 18)
+		(layers "*.Cu" "*.Mask")
+		(uuid "aa9f9e08-c295-4f63-b892-8b457789b128")
+	)
+	(embedded_fonts no)
+)

@@ -70,6 +70,17 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start -6.75 -8)
+		(end 6.75 8.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "9f20aa1b-5c0e-4c8e-898b-f5f5ae62dcce")
+	)
 	(fp_circle
 		(center 0 0)
 		(end 3.5 0)
@@ -81,16 +92,27 @@
 		(layer "Dwgs.User")
 		(uuid "31bf75f3-68bf-4194-b123-13f1bf7c9edb")
 	)
-	(fp_rect
-		(start -6.75 -8)
-		(end 6.75 8.7)
+	(fp_circle
+		(center 0 0)
+		(end 7.5 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
-		(uuid "9f20aa1b-5c0e-4c8e-898b-f5f5ae62dcce")
+		(layer "Dwgs.User")
+		(uuid "0400e401-ad8a-4ecd-9365-331789e8bf2d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 10 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "932e0074-e851-4c2c-965b-2b07abb96545")
 	)
 	(fp_circle
 		(center 0 0)
@@ -100,7 +122,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "Cmts.User")
 		(uuid "885fcd2a-d33d-4b3e-ac99-d13f6f7f468f")
 	)
 	(fp_rect
