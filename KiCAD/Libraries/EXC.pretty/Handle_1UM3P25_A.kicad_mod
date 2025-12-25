@@ -56,7 +56,8 @@
 	)
 	(property "Source" "https://www.aliexpress.com/item/1005007242440186.html"
 		(at 0 36 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
+		(hide yes)
 		(uuid "7ad88458-ee1a-4dc8-b1df-697e3d3de955")
 		(effects
 			(font

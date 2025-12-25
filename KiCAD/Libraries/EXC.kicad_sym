@@ -1319,6 +1319,116 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Linear_Potentiometer_45mm_M2_Panel_Mount_Top"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LP"
+			(at 0 8.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Linear_Potentiometer_45mm_M2_Panel_Mount_Top"
+			(at 0.254 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXC:Linear_Potentiometer_45mm_M2_Panel_Mount_Top"
+			(at 0.254 -11.43 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4272/P4272+C13403-001+Data+Sheet+.pdf"
+			(at -7.874 -13.462 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Potentiometer with Knob - 45mm Long - 10KΩ. Panel-mounted with 2x M2 screws, 41mm apart."
+			(at -17.78 -10.16 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4272"
+			(at -7.874 -12.446 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor variable potentiometer rheostat"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Linear_Potentiometer_45mm_M2_Panel_Mount_Top_0_1"
+			(rectangle
+				(start -2.54 7.62)
+				(end 2.54 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.016 6.35)
+				(end 1.016 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Linear_Potentiometer_75mm_M2_Panel_Mount"
 		(pin_numbers
 			(hide yes)
