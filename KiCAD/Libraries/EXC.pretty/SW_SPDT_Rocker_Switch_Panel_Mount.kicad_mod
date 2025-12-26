@@ -1,0 +1,227 @@
+(footprint "SW_SPDT_Rocker_Switch_Panel_Mount"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.75 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "ed151e4b-959b-4c3e-b038-cd300178c695")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "SW_SPDT_Rocker_Switch_Panel_Mount"
+		(at 0 6.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2846dcdd-23ae-43be-bfad-fec651795f03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ae01.alicdn.com/kf/Heb698ff86cfd4b08822571c233e6339aC.jpg"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee809b45-e6af-49d1-8da4-f261c2994c19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "A rocker switch with M2.39 mounting holes spaced 23.8mm apart"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9df1409d-b811-4398-9021-7463a09bd8ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source" "https://www.aliexpress.com/item/4001204841228.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f45a25c7-f2b3-48bc-894c-8a0466b6026c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -14.68 -4.635)
+		(end 14.68 4.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "fd1db1d5-562d-4425-b06f-fff0b096cd5a")
+	)
+	(fp_rect
+		(start -6.35 -5.715)
+		(end 6.35 5.715)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "89af458f-9ec4-4188-b17c-4f04cd5a549b")
+	)
+	(fp_poly
+		(pts
+			(xy -8.979999 -3.5) (xy -14.68 -3.495) (xy -14.68 3.495) (xy -8.98 3.495)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "5d698ab8-0aea-4a8a-924c-657c6fed1d81")
+	)
+	(fp_poly
+		(pts
+			(xy 8.98 -3.495) (xy 14.68 -3.495) (xy 14.68 3.495) (xy 8.98 3.495)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "bd04c61f-95f1-45e1-aac3-3ef16b2ea4c3")
+	)
+	(fp_line
+		(start -8.979999 -5.06)
+		(end -8.98 5.06)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cfd58640-2e3b-405c-b3a3-4984d8c4be99")
+	)
+	(fp_line
+		(start -8.73 5.31)
+		(end 8.73 5.31)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "976e81d1-a3df-4414-84eb-b521f8b47ba0")
+	)
+	(fp_line
+		(start 8.73 -5.31)
+		(end -8.73 -5.31)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5f173e63-db5a-4fbd-b903-70b49d8767d7")
+	)
+	(fp_line
+		(start 8.98 5.06)
+		(end 8.98 -5.06)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e29ab200-3e0e-47da-82e2-99b4e4478d1b")
+	)
+	(fp_arc
+		(start -8.98 -5.06)
+		(mid -9.156777 -5.486777)
+		(end -8.73 -5.31)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e8b196ab-2c72-4241-8519-932e3b03c187")
+	)
+	(fp_arc
+		(start -8.73 5.31)
+		(mid -9.156777 5.486777)
+		(end -8.98 5.06)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "df977730-6208-4b2f-883e-98d2282fe906")
+	)
+	(fp_arc
+		(start 8.73 -5.31)
+		(mid 9.156777 -5.486777)
+		(end 8.98 -5.06)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a325e8ef-0679-4c26-99b1-326dc73b4804")
+	)
+	(fp_arc
+		(start 8.98 5.06)
+		(mid 9.156777 5.486777)
+		(end 8.73 5.31)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bf7622ab-3401-4698-9a73-d0eeddd19e5b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "849b4f2f-f760-43b3-a3e4-a8ed0827ca4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -11.9 0)
+		(size 2.39 2.39)
+		(drill 2.39)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b2b6dbd1-71c0-4354-906b-da0732c732ab")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.9 0)
+		(size 2.39 2.39)
+		(drill 2.39)
+		(layers "*.Cu" "*.Mask")
+		(uuid "da2c3c2a-d175-43b3-9ec2-3ea8f6785dc2")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,224 @@
+(footprint "SW_SPDT_Rocker_Switch_Panel_Mount_Top"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.75 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "ed151e4b-959b-4c3e-b038-cd300178c695")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "SW_SPDT_Rocker_Switch_Panel_Mount_Top"
+		(at 0 6.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2846dcdd-23ae-43be-bfad-fec651795f03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ae01.alicdn.com/kf/Heb698ff86cfd4b08822571c233e6339aC.jpg"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee809b45-e6af-49d1-8da4-f261c2994c19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "A rocker switch with M2.39 mounting holes spaced 23.8mm apart"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9df1409d-b811-4398-9021-7463a09bd8ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source" "https://www.aliexpress.com/item/4001204841228.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f45a25c7-f2b3-48bc-894c-8a0466b6026c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -14.68 -4.635)
+		(end 14.68 4.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "fd1db1d5-562d-4425-b06f-fff0b096cd5a")
+	)
+	(fp_rect
+		(start -8.979999 -5.31)
+		(end 8.98 5.31)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "a8ada5ec-37af-4fad-a306-ad11564c9370")
+	)
+	(fp_rect
+		(start -6.35 -5.715)
+		(end 6.35 5.715)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "89af458f-9ec4-4188-b17c-4f04cd5a549b")
+	)
+	(fp_poly
+		(pts
+			(xy -8.979999 -3.5) (xy -14.68 -3.495) (xy -14.68 3.495) (xy -8.98 3.495)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "5d698ab8-0aea-4a8a-924c-657c6fed1d81")
+	)
+	(fp_poly
+		(pts
+			(xy 8.98 -3.495) (xy 14.68 -3.495) (xy 14.68 3.495) (xy 8.98 3.495)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "bd04c61f-95f1-45e1-aac3-3ef16b2ea4c3")
+	)
+	(fp_line
+		(start -14.88 5.260001)
+		(end -14.88 -5.26)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "01764cc7-9466-490e-9c69-02d6b372b6be")
+	)
+	(fp_line
+		(start -14.630001 -5.51)
+		(end 14.63 -5.51)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "97c91378-4ded-47b2-ac40-174114ed5a3b")
+	)
+	(fp_line
+		(start 14.63 5.51)
+		(end -14.630001 5.51)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "abf475c4-43a6-472d-98fc-3ac52103aaff")
+	)
+	(fp_line
+		(start 14.88 -5.26)
+		(end 14.88 5.26)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "772c1799-b8a8-44ef-b57e-0d52001e1948")
+	)
+	(fp_arc
+		(start -14.88 -5.26)
+		(mid -14.806777 -5.436777)
+		(end -14.63 -5.51)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c370e32f-804b-4948-a9db-34abe4c0f61d")
+	)
+	(fp_arc
+		(start -14.63 5.51)
+		(mid -14.806777 5.436777)
+		(end -14.88 5.26)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a8fb5e1d-ab80-4188-abd2-36eb1b48ccb7")
+	)
+	(fp_arc
+		(start 14.63 -5.51)
+		(mid 14.806777 -5.436777)
+		(end 14.88 -5.26)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5dc0ebe3-fe75-4ed6-9354-40c61f8da637")
+	)
+	(fp_arc
+		(start 14.88 5.26)
+		(mid 14.806777 5.436777)
+		(end 14.63 5.51)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "588c73d7-e756-471c-ab47-28cf6c037008")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "849b4f2f-f760-43b3-a3e4-a8ed0827ca4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
