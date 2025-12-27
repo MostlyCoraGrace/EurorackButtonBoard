@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -20.828 0)
+		(at 0 -29 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "3aa4e3ff-dd24-4db8-9f10-49ff800641be")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Analog_Joystick_M39_Panel_Mount_Top"
-		(at 0 20.955 0)
+		(at 0 30.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "787bd738-631b-4c1e-95e7-8f5ecad0953f")
@@ -145,7 +145,7 @@
 		(uuid "2158e14f-06b4-4d99-9fed-9aa3f108116a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -20.828 0)
+		(at 0 -29 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "7e0d91dd-5429-41a4-ac13-d630724ee23f")
