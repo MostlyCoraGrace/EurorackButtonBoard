@@ -1,0 +1,167 @@
+(footprint "Analog_Joystick_M39_Panel_Mount_Top"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -20.828 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "3aa4e3ff-dd24-4db8-9f10-49ff800641be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "Analog_Joystick_M39_Panel_Mount_Top"
+		(at 0 20.955 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "787bd738-631b-4c1e-95e7-8f5ecad0953f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://module-center.com/administrator/files/UploadFile/D202X-R4.pdf"
+		(at 0 27.813 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "567a3382-845b-4e5e-9217-52c5af567bbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mini Analog Joystick - 10K Potentiometers. Panel-mount with 39.5mm Diameter hole."
+		(at 0 24.257 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66d948ad-1971-40cf-8ab1-facf888144e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source" "https://www.adafruit.com/product/3102"
+		(at 0 25.908 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "89b613e6-dfc5-46d7-8b51-630ab9b718b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -29.4 -20.2)
+		(end 20.2 29.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "ddad6500-10f7-47ac-9521-2842005891bc")
+	)
+	(fp_circle
+		(center -16.25 -16.25)
+		(end -15 -16.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "f1888538-3472-4c29-8ee7-26f11acd89ef")
+	)
+	(fp_circle
+		(center -16.25 16.25)
+		(end -15 16.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "748b6c38-561c-4fc0-84be-e8ba87cf31ce")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 19.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "c9538a2f-78f5-4b2b-8339-c9779fe25695")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 26.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "3ba11c18-1904-4385-90bf-e271e2504d12")
+	)
+	(fp_circle
+		(center 16.25 -16.25)
+		(end 17.5 -16.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "ff929b48-5533-4d50-b5ec-82ec4590ec14")
+	)
+	(fp_circle
+		(center 16.25 16.25)
+		(end 17.5 16.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "2158e14f-06b4-4d99-9fed-9aa3f108116a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -20.828 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7e0d91dd-5429-41a4-ac13-d630724ee23f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 56 56)
+		(drill 56)
+		(layers "*.Cu" "*.Mask")
+		(uuid "340dc482-a5b0-481d-a3d1-b4de5aebfca5")
+	)
+	(embedded_fonts no)
+)
