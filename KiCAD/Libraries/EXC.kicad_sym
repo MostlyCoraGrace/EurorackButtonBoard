@@ -889,7 +889,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "H"
-			(at 0 -6.35 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -897,7 +897,7 @@
 			)
 		)
 		(property "Value" "Handle_1UM3P25_PanelMount_B"
-			(at 0.254 -17.018 0)
+			(at 0.254 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -905,7 +905,7 @@
 			)
 		)
 		(property "Footprint" "EXC:Handle_1UM3P25_B"
-			(at 0 -15.24 0)
+			(at 0 -16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,8 +913,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ae01.alicdn.com/kf/Sb61e59cbd92d4751a636402ee4d65e3c9.jpg"
-			(at 21.082 -20.574 0)
+		(property "Datasheet" "https://ae01.alicdn.com/kf/Sbc0cceeaa8fe4338b0ef3212e33d9ba8U.png"
+			(at 21.082 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +923,7 @@
 			)
 		)
 		(property "Description" "The part of the handle that has the holes for the screws' heads"
-			(at 16.764 -22.352 0)
+			(at 16.764 -23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,8 +931,8 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.aliexpress.com/item/1005005070119421.html"
-			(at 13.97 -18.796 0)
+		(property "Source" "https://www.aliexpress.com/item/1005007242440186.html"
+			(at 13.97 -19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,6 +954,181 @@
 			)
 			(circle
 				(center 0 -12.7)
+				(radius 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Handle_2UM4P60_A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "H"
+			(at 0 -2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Handle_2UM4P60_PanelMount"
+			(at 0.254 -20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXC:Handle_2UM4P60_A"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ae-pic-a1.aliexpress-media.com/kf/Sbae1622782804f9f92841f71c2bff088U.jpg"
+			(at 20.574 -22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The part of the 60mm handle that has the holes for the mounting screws"
+			(at 21.336 -24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.aliexpress.com/item/1005007166949940.html"
+			(at 13.97 -26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Handle_2UM4P60_A_0_1"
+			(rectangle
+				(start -1.524 0)
+				(end 1.524 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 1.524)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -16.51)
+				(radius 1.524)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Handle_2UM4P60_B"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "H"
+			(at 0 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Handle_2UM4P60_PanelMount_B"
+			(at 0.254 -21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXC:Handle_2UM4P60_B"
+			(at 0 -19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ae-pic-a1.aliexpress-media.com/kf/Sbae1622782804f9f92841f71c2bff088U.jpg"
+			(at 21.082 -24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The part of the handle that has the holes for the screws' heads"
+			(at 16.764 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.aliexpress.com/item/1005007166949940.html"
+			(at 13.97 -23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Handle_2UM4P60_B_0_1"
+			(circle
+				(center 0 0)
+				(radius 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -16.51)
 				(radius 2.032)
 				(stroke
 					(width 0)
