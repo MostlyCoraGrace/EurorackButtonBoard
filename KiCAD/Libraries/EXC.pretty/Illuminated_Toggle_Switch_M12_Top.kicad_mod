@@ -1,10 +1,10 @@
-(footprint "Illuminated_Toggle_Switch_M12"
+(footprint "Illuminated_Toggle_Switch_M12_Top"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -7 0)
+		(at 0 -27.5 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "15d36448-76a3-461c-957d-6816e5ed4dfe")
@@ -16,8 +16,8 @@
 			(justify mirror)
 		)
 	)
-	(property "Value" "Illuminated_Toggle_Switch_M12"
-		(at 0 -7 0)
+	(property "Value" "Illuminated_Toggle_Switch_M12_Top"
+		(at 0 25.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "19a52a1d-741d-46b5-af5d-2e266d73aa83")
@@ -80,49 +80,110 @@
 		(layer "Dwgs.User")
 		(uuid "d5b82460-df5c-4d9b-a857-999dcce7994b")
 	)
-	(fp_line
-		(start -0.95 5.2)
-		(end -0.95 6.00643)
+	(fp_rect
+		(start -2.5 0)
+		(end 2.5 7.5)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
-		(layer "Edge.Cuts")
-		(uuid "c37b8ca2-91ed-4f42-9e3f-00376f0a44f5")
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "4c7d8650-bcd2-46f1-b5c1-82ec4fceb90b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "2c31e93e-9fbb-4446-b11d-b07bce777be4")
 	)
 	(fp_line
-		(start -0.95 5.2)
-		(end 0.95 5.2)
+		(start -8.242 -20.7181)
+		(end -8.242 14.3847)
 		(stroke
-			(width 0.15)
-			(type default)
+			(width 0.2)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e528875d-cd70-448d-a2f3-3c17f8dd04b2")
+		(uuid "aa65c2bd-9aa4-4d7b-a604-0f027ea1b5e0")
 	)
 	(fp_line
-		(start 0.95 5.2)
-		(end 0.95 6.00643)
+		(start -8.242 14.3847)
+		(end 8.242 14.3847)
 		(stroke
-			(width 0.15)
-			(type default)
+			(width 0.2)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7e88aa5e-cb15-4972-9f7b-1ae04d113610")
+		(uuid "b182aabb-9ebe-4795-a342-77dc4357a78c")
 	)
-	(fp_arc
-		(start -0.95 6.00643)
-		(mid 0 -6.08132)
-		(end 0.95 6.00643)
+	(fp_line
+		(start -7.25 -26.2307)
+		(end -7.25 -20.7181)
 		(stroke
-			(width 0.15)
-			(type default)
+			(width 0.2)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "399672de-5c77-4f24-bdfd-b6f21d05bdeb")
+		(uuid "09326227-f233-47c6-8bc4-acb99dbd3ac3")
+	)
+	(fp_line
+		(start -7.25 -26.2307)
+		(end 7.25 -26.2307)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "81b3b09c-075d-463a-84c4-faa61e8fdd17")
+	)
+	(fp_line
+		(start -7.25 -20.7181)
+		(end -8.242 -20.7181)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9ef2c8b4-256d-4a8d-83b3-d799d943f950")
+	)
+	(fp_line
+		(start 7.25 -26.2307)
+		(end 7.25 -20.7181)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0ff9851e-01da-4332-8de2-6b4252a7cc1d")
+	)
+	(fp_line
+		(start 7.25 -20.7181)
+		(end 8.242 -20.7181)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5b284030-a090-4924-9ff6-aa9e8e10cdd1")
+	)
+	(fp_line
+		(start 8.242 -20.7181)
+		(end 8.242 14.3847)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c34fb0cf-2dc3-41bc-9540-9eeec56c5bbd")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 7 0)
+		(at 0 -27.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "3f9030f8-e9fa-4aed-a816-d571af0457ac")

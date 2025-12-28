@@ -310,7 +310,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "LJS"
-			(at 0 7.874 0)
+			(at 0 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,7 +318,7 @@
 			)
 		)
 		(property "Value" "Analog_Joystick_M39_Panel_Mount_Top"
-			(at 0 -8.382 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,7 +326,7 @@
 			)
 		)
 		(property "Footprint" "EXC:Analog_Joystick_M39_Panel_Mount_Top"
-			(at 0 -10.668 0)
+			(at 0 -11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -335,7 +335,7 @@
 			)
 		)
 		(property "Datasheet" "https://module-center.com/administrator/files/UploadFile/D202X-R4.pdf"
-			(at -17.78 -17.272 0)
+			(at -17.78 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,7 +345,7 @@
 			)
 		)
 		(property "Description" "Mini Analog Joystick - 10K Potentiometers. Panel-mount with 39.5mm Diameter hole."
-			(at -18.288 -12.446 0)
+			(at -18.288 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,7 +355,7 @@
 			)
 		)
 		(property "Source" "https://www.adafruit.com/product/3102"
-			(at -18.034 -14.732 0)
+			(at -18.034 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
