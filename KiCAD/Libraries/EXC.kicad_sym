@@ -1237,6 +1237,181 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Handle_3UM4P100_A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "H"
+			(at 0 -2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Handle_3UM4P100_PanelMount"
+			(at 0.254 -25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXC:Handle_3UM4P100_A"
+			(at 0 -23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ae-pic-a1.aliexpress-media.com/kf/Sad31a7a115c54e08a124ccf5d0f4e5e8r.jpg_960x960q75.jpg"
+			(at 20.574 -26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The part of the 100mm handle that has the holes for the mounting screws"
+			(at 21.336 -28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.aliexpress.com/item/1005007166949940.html"
+			(at 13.97 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Handle_3UM4P100_A_0_1"
+			(rectangle
+				(start -1.524 0)
+				(end 1.524 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 1.524)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -20.32)
+				(radius 1.524)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Handle_3UM4P100_B"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "H"
+			(at 0 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Handle_3UM4P100_PanelMount_B"
+			(at 0.254 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXC:Handle_3UM4P100_B"
+			(at 0 -23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ae-pic-a1.aliexpress-media.com/kf/Sad31a7a115c54e08a124ccf5d0f4e5e8r.jpg_960x960q75.jpg"
+			(at 21.082 -28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The part of the handle that has the holes for the screws' heads"
+			(at 16.764 -30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.aliexpress.com/item/1005007166949940.html"
+			(at 13.97 -27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Handle_3UM4P100_B_0_1"
+			(circle
+				(center 0 0)
+				(radius 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -20.32)
+				(radius 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Knob_Large_20mm"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1824,6 +1999,116 @@
 				)
 				(stroke
 					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Linear_Potentiometer_75mm_M2_Panel_Mount_Top"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LP"
+			(at 0 10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Linear_Potentiometer_75mm_M2_Panel_Mount_Top"
+			(at -0.254 -11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXC:Linear_Potentiometer_75mm_M2_Panel_Mount_Top"
+			(at -0.254 -13.716 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4219/4219_C11375.pdf"
+			(at -8.382 -15.748 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Potentiometer with Knob - 75mm Long - 10KΩ. Panel-mounted with 2x M2 screws, 71mm apart."
+			(at -18.288 -12.446 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4219"
+			(at -8.382 -14.732 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "R res resistor variable potentiometer rheostat"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Linear_Potentiometer_75mm_M2_Panel_Mount_Top_0_1"
+			(rectangle
+				(start -2.54 8.89)
+				(end 2.54 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.016 7.62)
+				(end 1.016 -7.62)
+				(stroke
+					(width 0.254)
 					(type default)
 				)
 				(fill
