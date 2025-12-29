@@ -1,0 +1,786 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "888646fb-c4cc-469c-9185-0173e54829f5")
+	(paper "A4")
+	(lib_symbols
+		(symbol "EXC:Eurorack_M3_MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Eurorack_M3_MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EXC:MountingHole_3.2mm_M3"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Eurorack_M3_MountingHole_0_1"
+				(polyline
+					(pts
+						(xy -0.635 0.762) (xy 0.635 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.635 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.635 -0.762)
+					(mid -1.397 0)
+					(end -0.635 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.635 -1.778)
+					(mid -2.413 0)
+					(end -0.635 1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.762) (xy 0.635 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy 0.635 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.6141 1.778)
+					(mid 2.4131 0)
+					(end 0.6141 -1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.6227 0.762)
+					(mid 1.3971 0)
+					(end 0.6227 -0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EXC:Handle_3UM4P100_B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Handle_3UM4P100_PanelMount_B"
+				(at 0.254 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EXC:Handle_3UM4P100_B"
+				(at 0 -23.622 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ae-pic-a1.aliexpress-media.com/kf/Sad31a7a115c54e08a124ccf5d0f4e5e8r.jpg_960x960q75.jpg"
+				(at 21.082 -28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "The part of the handle that has the holes for the screws' heads"
+				(at 16.764 -30.734 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Source" "https://www.aliexpress.com/item/1005007166949940.html"
+				(at 13.97 -27.178 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Handle_3UM4P100_B_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -20.32)
+					(radius 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EXC:Linear_Potentiometer_75mm_M2_Panel_Mount"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LP"
+				(at 0 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Linear_Potentiometer_75mm_M2_Panel_Mount"
+				(at -0.254 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EXC:Linear_Potentiometer_75mm_M2_Panel_Mount"
+				(at -0.254 -13.716 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4219/4219_C11375.pdf"
+				(at -8.382 -15.748 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Potentiometer with Knob - 75mm Long - 10KΩ. Panel-mounted with 2x M2 screws, 71mm apart."
+				(at -18.288 -12.446 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Source" "https://www.adafruit.com/product/4219"
+				(at -8.382 -14.732 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor variable potentiometer rheostat"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Linear_Potentiometer_75mm_M2_Panel_Mount_0_1"
+				(rectangle
+					(start -1.016 7.62)
+					(end 1.016 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 8.89)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -8.89)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.524) (xy 2.54 2.54) (xy 1.524 2.54) (xy 2.54 2.54) (xy -2.032 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Eurorack_M3_MountingHole")
+		(at 25.4 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cc687c7-1977-4a71-b5f9-51e5ac617da8")
+		(property "Reference" "H2"
+			(at 29.21 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eurorack_M3_MountingHole"
+			(at 29.21 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:MountingHole_3.2mm_M3"
+			(at 25.4 69.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SlidePot_75mm_wH_3U7HP2x1Av2"
+				(path "/888646fb-c4cc-469c-9185-0173e54829f5"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Linear_Potentiometer_75mm_M2_Panel_Mount")
+		(at 63.5 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23296cda-d957-4be6-8e73-6ef4eae2f085")
+		(property "Reference" "LP1"
+			(at 67.31 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Linear_Potentiometer_75mm_M2_Panel_Mount"
+			(at 67.31 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:Linear_Potentiometer_75mm_M2_Panel_Mount"
+			(at 63.246 58.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4219/4219_C11375.pdf"
+			(at 55.118 60.198 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Potentiometer with Knob - 75mm Long - 10KΩ. Panel-mounted with 2x M2 screws, 71mm apart."
+			(at 45.212 56.896 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4219"
+			(at 55.118 59.182 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/888646fb-c4cc-469c-9185-0173e54829f5"
+					(reference "LP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Handle_3UM4P100_B")
+		(at 25.4 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23c466b8-17a1-491d-8a2a-904f87eb051f")
+		(property "Reference" "H3"
+			(at 29.21 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Handle_3UM4P100_PanelMount_B"
+			(at 29.21 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:Handle_3UM4P100_B"
+			(at 25.4 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ae-pic-a1.aliexpress-media.com/kf/Sad31a7a115c54e08a124ccf5d0f4e5e8r.jpg_960x960q75.jpg"
+			(at 46.482 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The part of the handle that has the holes for the screws' heads"
+			(at 42.164 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.aliexpress.com/item/1005007166949940.html"
+			(at 39.37 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/888646fb-c4cc-469c-9185-0173e54829f5"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Eurorack_M3_MountingHole")
+		(at 25.4 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40784182-76ce-44ca-829f-6aee06a99e33")
+		(property "Reference" "H1"
+			(at 29.21 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eurorack_M3_MountingHole"
+			(at 29.21 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:MountingHole_3.2mm_M3"
+			(at 25.4 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/888646fb-c4cc-469c-9185-0173e54829f5"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Linear_Potentiometer_75mm_M2_Panel_Mount")
+		(at 114.3 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a868715a-ed39-4a99-9076-b20d8b5f30d1")
+		(property "Reference" "LP2"
+			(at 118.11 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Linear_Potentiometer_75mm_M2_Panel_Mount"
+			(at 118.11 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:Linear_Potentiometer_75mm_M2_Panel_Mount"
+			(at 114.046 58.166 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4219/4219_C11375.pdf"
+			(at 105.918 60.198 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Potentiometer with Knob - 75mm Long - 10KΩ. Panel-mounted with 2x M2 screws, 71mm apart."
+			(at 96.012 56.896 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4219"
+			(at 105.918 59.182 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SlidePot_75mm_wH_3U7HP2x1Av2"
+				(path "/888646fb-c4cc-469c-9185-0173e54829f5"
+					(reference "LP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
