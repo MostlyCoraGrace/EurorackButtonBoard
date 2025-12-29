@@ -1,0 +1,119 @@
+(footprint "Handle_3UM4P100_B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "3415111d-f0d7-4d31-bd57-8e2ca77a46d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "Handle_3UM4P100_B"
+		(at 0 105.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1133db77-0801-4062-be02-2f8b587ce3b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ae-pic-a1.aliexpress-media.com/kf/Sad31a7a115c54e08a124ccf5d0f4e5e8r.jpg_960x960q75.jpg"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27d2829f-b644-496e-a804-72c0c9c6af1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Two M4 flat-head ultrathin hex bolts to hold a 100mm rod handle"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81956fb2-5589-48ba-9c74-a9175f0654e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Source" "https://www.aliexpress.com/item/1005007166949940.html"
+		(at 0 36.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e607d628-dc2f-4479-9f5b-d41897197f69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 4.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "3515c362-049c-4f5d-8121-bdabf1af51bc")
+	)
+	(fp_circle
+		(center 0 100)
+		(end 4.1 100)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e937af25-81b9-4954-bc6d-9efc571c46c3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 107.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8248d965-b8dc-4d82-bbc5-7dccf2ca7b6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 8.2 8.2)
+		(drill 8.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "96e15e77-39b4-4776-b61f-6b7358993f03")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 100)
+		(size 8.2 8.2)
+		(drill 8.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "db2ce6ab-0e89-4285-8c14-741229a9dc25")
+	)
+	(embedded_fonts no)
+)
