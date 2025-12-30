@@ -485,7 +485,7 @@
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
 		(tags "MesurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "MP2"
-			(at 0 -1.6256 0)
+			(at 0.3 -1.6256 0)
 			(layer "B.SilkS")
 			(uuid "66fb97a9-9bc3-480f-9c38-e8c2d9d096ad")
 			(effects
@@ -622,7 +622,7 @@
 			(uuid "7461a307-35cf-4868-897f-f37b74335ceb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.6256 0)
+			(at 0.3 -1.6256 0)
 			(layer "B.Fab")
 			(uuid "2b5ba288-03ad-4957-ae30-81d17068bd5c")
 			(effects
@@ -653,7 +653,7 @@
 		(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm,")
 		(tags "MesurementPoint Square SMDPad 1mmx2mm ")
 		(property "Reference" "MP3"
-			(at 0 -1.6256 0)
+			(at 0.3 -1.6256 0)
 			(layer "B.SilkS")
 			(uuid "7aeb5605-b7a2-415f-9a65-bb391e1ccdb1")
 			(effects
@@ -790,7 +790,7 @@
 			(uuid "1a69f4b2-cfe1-4b2f-9896-f23970c4bcf2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.6256 0)
+			(at 0.3 -1.6256 0)
 			(layer "B.Fab")
 			(uuid "6300d9aa-66bf-4d2c-a0b7-a99934605965")
 			(effects
