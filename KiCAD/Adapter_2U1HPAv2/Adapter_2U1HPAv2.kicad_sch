@@ -206,6 +206,239 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EXC:Mechanical_Pad_Solder_Linkage"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MP"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Mechanical_Pad_Solder_Linkage"
+				(at 0 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
+				(at -9.652 -6.858 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder pad for mechanically connecting PCBs/etc."
+				(at -9.652 -5.588 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "Mechanical_Pad_Solder_Linkage_0_1"
+				(rectangle
+					(start -1.6129 3.2258)
+					(end 1.6129 -3.2258)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Mechanical_Pad_Solder_Linkage_1_1"
+				(pin bidirectional non_logic
+					(at -1.27 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
+		(at 63.5 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03a57c4c-24f4-4b13-af4d-3c9b39bab11d")
+		(property "Reference" "MP4"
+			(at 66.04 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mechanical_Pad_Solder_Linkage"
+			(at 66.04 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
+			(at 53.848 57.658 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
+			(at 53.848 56.388 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "362f33dd-64d2-42f0-bb3b-381847cb1080")
+		)
+		(instances
+			(project "Adapter_2U1HPAv2"
+				(path "/e33884b6-a183-4be4-af50-d9521e5f4156"
+					(reference "MP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
+		(at 63.5 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e10fe09-9362-406d-9f10-4830adab46c9")
+		(property "Reference" "MP3"
+			(at 66.04 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mechanical_Pad_Solder_Linkage"
+			(at 66.04 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
+			(at 53.848 44.958 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
+			(at 53.848 43.688 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c66df64b-7584-4982-957b-77fc5a6e1b50")
+		)
+		(instances
+			(project "Adapter_2U1HPAv2"
+				(path "/e33884b6-a183-4be4-af50-d9521e5f4156"
+					(reference "MP3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "EXC:Eurorack_M3_MountingHole")
@@ -272,6 +505,75 @@
 		)
 	)
 	(symbol
+		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
+		(at 25.4 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7582e25a-30c2-4f9a-9795-67f3dc9ca802")
+		(property "Reference" "MP1"
+			(at 27.94 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mechanical_Pad_Solder_Linkage"
+			(at 27.94 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
+			(at 15.748 44.958 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
+			(at 15.748 43.688 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f29d3c09-4f8d-47b9-89da-6cef235bcc94")
+		)
+		(instances
+			(project ""
+				(path "/e33884b6-a183-4be4-af50-d9521e5f4156"
+					(reference "MP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EXC:Eurorack_M3_MountingHole")
 		(at 25.4 25.4 0)
 		(unit 1)
@@ -330,6 +632,75 @@
 			(project ""
 				(path "/e33884b6-a183-4be4-af50-d9521e5f4156"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Mechanical_Pad_Solder_Linkage")
+		(at 25.4 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8502f2f-05f4-4bdf-ac2c-b1148bbe044a")
+		(property "Reference" "MP2"
+			(at 27.94 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mechanical_Pad_Solder_Linkage"
+			(at 27.94 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SolderWirePad_1x01_SMD_1x2mm"
+			(at 15.748 57.658 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder pad for mechanically connecting PCBs/etc."
+			(at 15.748 56.388 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b101f4d-7ee7-4d11-a7bb-6eff180f9ec6")
+		)
+		(instances
+			(project "Adapter_2U1HPAv2"
+				(path "/e33884b6-a183-4be4-af50-d9521e5f4156"
+					(reference "MP2")
 					(unit 1)
 				)
 			)
