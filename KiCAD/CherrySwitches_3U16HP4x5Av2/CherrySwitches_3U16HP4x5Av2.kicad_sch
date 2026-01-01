@@ -1,0 +1,2123 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "eecb246a-980e-49a3-a0c1-076a2ccd0e78")
+	(paper "A4")
+	(lib_symbols
+		(symbol "EXC:Eurorack_M3_MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Eurorack_M3_MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EXC:MountingHole_3.2mm_M3"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Eurorack_M3_MountingHole_0_1"
+				(polyline
+					(pts
+						(xy -0.635 0.762) (xy 0.635 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.635 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.635 -0.762)
+					(mid -1.397 0)
+					(end -0.635 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.635 -1.778)
+					(mid -2.413 0)
+					(end -0.635 1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.762) (xy 0.635 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy 0.635 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.6141 1.778)
+					(mid 2.4131 0)
+					(end 0.6141 -1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.6227 0.762)
+					(mid 1.3971 0)
+					(end 0.6227 -0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EXC:SW_SPST-Cherry_Panel_Mount"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST_MOUNT"
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+				(at -10.16 -4.826 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+				(at -10.16 -6.858 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+				(at -10.16 -3.556 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Source" "https://www.adafruit.com/product/4954"
+				(at -10.16 -5.842 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST-Cherry_Panel_Mount_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Eurorack_M3_MountingHole")
+		(at 25.4 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23ebdaf2-b2b8-4fac-9dbd-99ca0274303a")
+		(property "Reference" "H1"
+			(at 29.21 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eurorack_M3_MountingHole"
+			(at 29.21 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:MountingHole_3.2mm_M3"
+			(at 25.4 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 50.8 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f2609c3-0502-4e45-91d7-01a7c2e12120")
+		(property "Reference" "SW4"
+			(at 54.61 48.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 54.61 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 40.64 55.626 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 40.64 57.658 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 40.64 54.356 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 40.64 56.642 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 50.8 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "358a70ae-e9bf-4a1b-ae16-f054a5e0f087")
+		(property "Reference" "SW3"
+			(at 54.61 36.1949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 54.61 38.7349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 40.64 42.926 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 40.64 44.958 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 40.64 41.656 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 40.64 43.942 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 127 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4084219a-cc2e-40f5-bf6e-0b25683c559c")
+		(property "Reference" "SW19"
+			(at 130.81 61.5949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 130.81 64.1349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 116.84 68.326 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 116.84 70.358 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 116.84 67.056 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 116.84 69.342 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 101.6 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "545316e5-39fa-4e2d-91c1-145e095b69ad")
+		(property "Reference" "SW8"
+			(at 105.41 48.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 105.41 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 91.44 55.626 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 91.44 57.658 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 91.44 54.356 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 91.44 56.642 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 50.8 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54edecdc-c8e1-4e1c-a467-1d82d8e2799c")
+		(property "Reference" "SW13"
+			(at 54.61 61.5949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 54.61 64.1349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 40.64 68.326 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 40.64 70.358 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 40.64 67.056 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 40.64 69.342 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Eurorack_M3_MountingHole")
+		(at 25.4 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58592013-642e-4689-8dd5-3f9b3700282e")
+		(property "Reference" "H2"
+			(at 29.21 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eurorack_M3_MountingHole"
+			(at 29.21 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:MountingHole_3.2mm_M3"
+			(at 25.4 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 127 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f91a559-f723-42b6-9f79-ddbb89f2b158")
+		(property "Reference" "SW10"
+			(at 130.81 48.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 130.81 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 116.84 55.626 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 116.84 57.658 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 116.84 54.356 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 116.84 56.642 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 76.2 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d00f791-3f31-4448-9691-19b8820f7f2e")
+		(property "Reference" "SW15"
+			(at 80.01 61.5949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 80.01 64.1349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 66.04 68.326 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 66.04 70.358 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 66.04 67.056 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 66.04 69.342 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 101.6 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80960c7f-cfcb-44fa-9296-bc75c8f229d3")
+		(property "Reference" "SW18"
+			(at 105.41 74.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 105.41 76.8349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 91.44 81.026 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 91.44 83.058 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 91.44 79.756 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 91.44 82.042 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Eurorack_M3_MountingHole")
+		(at 63.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84c94a35-dc88-4af1-98af-daaee1784cb7")
+		(property "Reference" "H4"
+			(at 67.31 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eurorack_M3_MountingHole"
+			(at 67.31 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:MountingHole_3.2mm_M3"
+			(at 63.5 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 127 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97672eb1-5545-411d-b971-5459fb0c1ddd")
+		(property "Reference" "SW9"
+			(at 130.81 36.1949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 130.81 38.7349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 116.84 42.926 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 116.84 44.958 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 116.84 41.656 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 116.84 43.942 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 76.2 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a0d186e-07d4-48d3-bf38-50aa148359ab")
+		(property "Reference" "SW5"
+			(at 80.01 36.1949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 80.01 38.7349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 66.04 42.926 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 66.04 44.958 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 66.04 41.656 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 66.04 43.942 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 25.4 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a73c4ce-4c27-418e-901f-1ef2615ef7a5")
+		(property "Reference" "SW11"
+			(at 29.21 61.5949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 29.21 64.1349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 15.24 68.326 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 15.24 70.358 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 15.24 67.056 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 15.24 69.342 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 25.4 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b03b8578-48b7-46d1-9ed0-7d010c3add63")
+		(property "Reference" "SW12"
+			(at 29.21 74.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 29.21 76.8349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 15.24 81.026 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 15.24 83.058 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 15.24 79.756 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 15.24 82.042 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 25.4 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c15571f6-0a3f-4eee-8a22-395e67c2c6d9")
+		(property "Reference" "SW2"
+			(at 29.21 48.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 29.21 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 15.24 55.626 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 15.24 57.658 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 15.24 54.356 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 15.24 56.642 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 76.2 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9d3a002-bb63-4574-8ee1-02f1074e1a42")
+		(property "Reference" "SW6"
+			(at 80.01 48.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 80.01 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 66.04 55.626 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 66.04 57.658 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 66.04 54.356 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 66.04 56.642 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 76.2 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cabd4ce5-ad54-4e24-900e-83444a37d362")
+		(property "Reference" "SW16"
+			(at 80.01 74.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 80.01 76.8349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 66.04 81.026 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 66.04 83.058 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 66.04 79.756 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 66.04 82.042 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:Eurorack_M3_MountingHole")
+		(at 63.5 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d58af7a6-3686-4abc-a79f-c11bda86307f")
+		(property "Reference" "H3"
+			(at 67.31 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eurorack_M3_MountingHole"
+			(at 67.31 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:MountingHole_3.2mm_M3"
+			(at 63.5 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 25.4 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "defcd42e-9903-4bcd-ba86-89477bc5a1fc")
+		(property "Reference" "SW1"
+			(at 29.21 36.1949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 29.21 38.7349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 15.24 42.926 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 15.24 44.958 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 15.24 41.656 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 15.24 43.942 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 101.6 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8857f8b-f146-4958-b99a-6c563b9eec94")
+		(property "Reference" "SW7"
+			(at 105.41 36.1949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 105.41 38.7349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 91.44 42.926 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 91.44 44.958 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 91.44 41.656 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 91.44 43.942 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 101.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec66d6b2-641c-4da5-8aa5-b94cddb4e34a")
+		(property "Reference" "SW17"
+			(at 105.41 61.5949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 105.41 64.1349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 91.44 68.326 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 91.44 70.358 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 91.44 67.056 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 91.44 69.342 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 127 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcce449a-858d-4557-8dd4-82a6921f4cec")
+		(property "Reference" "SW20"
+			(at 130.81 74.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 130.81 76.8349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 116.84 81.026 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 116.84 83.058 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 116.84 79.756 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 116.84 82.042 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EXC:SW_SPST-Cherry_Panel_Mount")
+		(at 50.8 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff96ab82-c5c0-42ac-b31c-f860e09f8aa4")
+		(property "Reference" "SW14"
+			(at 54.61 74.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPST_MOUNT"
+			(at 54.61 76.8349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EXC:SW_Cherry_MX_1.00u_Mount"
+			(at 40.64 81.026 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hirosarts.com/blog/keycap-dimensions-guide-for-beginners/"
+			(at 40.64 83.058 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) panel-mount switch"
+			(at 40.64 79.756 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/4954"
+			(at 40.64 82.042 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "CherrySwitches_3U16HP4x5Av2"
+				(path "/eecb246a-980e-49a3-a0c1-076a2ccd0e78"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
