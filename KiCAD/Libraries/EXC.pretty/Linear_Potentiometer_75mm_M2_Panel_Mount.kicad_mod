@@ -318,11 +318,12 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 0 -35.5)
-		(size 2.2 2.2)
+		(size 3.2 3.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "612ffc41-f333-4ad1-a87f-5cd4dd8753bf")
 	)
 	(pad "" np_thru_hole oval
@@ -332,11 +333,12 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "ad181f42-0ab9-4c95-a714-bb5033c4db80")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 0 35.5)
-		(size 2.2 2.2)
+		(size 3.2 3.2)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "09b8d11a-cfb0-4f45-a0aa-39e19aa07f62")
 	)
 	(embedded_fonts no)

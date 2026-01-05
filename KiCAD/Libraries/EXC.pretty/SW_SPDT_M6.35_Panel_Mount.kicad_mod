@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -4 0)
+		(at 0 -9 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "2f057f9b-1949-49ca-ae94-4126e251b18e")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "SW_SPDT_M6.35_Panel_Mount"
-		(at 0 8.5 0)
+		(at 0 9.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a8589bca-aaf8-4de4-b152-36fe1017173f")
@@ -116,7 +116,7 @@
 		(uuid "71e99dc1-757b-4710-ac7c-0b778f6a4409")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -4 0)
+		(at 0 -9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "edee5155-cf4a-409c-9e2f-9e9c46bfa4f1")
@@ -127,39 +127,44 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole oval
+	(pad "" thru_hole oval
 		(at -6.4 0)
-		(size 2 2.4)
+		(size 3.6 4)
 		(drill oval 2 2.4)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "45501967-a9f8-4dd2-9484-171a2c209cfa")
 	)
-	(pad "" np_thru_hole oval
+	(pad "" thru_hole oval
 		(at 0 -6.4)
-		(size 2.4 2)
+		(size 4 3.6)
 		(drill oval 2.4 2)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "4a5f7159-b09e-421c-9924-9c2c48e27a62")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 0 0)
-		(size 6.35 6.35)
+		(size 7.95 7.95)
 		(drill 6.35)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "61d46103-6c23-42a7-9781-41847ad6953d")
 	)
-	(pad "" np_thru_hole oval
+	(pad "" thru_hole oval
 		(at 0 6.4008)
-		(size 2.4 2)
+		(size 4 3.6)
 		(drill oval 2.4 2)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "71d9494c-8f97-4331-97ca-7ca20a3d8ad8")
 	)
-	(pad "" np_thru_hole oval
+	(pad "" thru_hole oval
 		(at 6.4 0)
-		(size 2 2.4)
+		(size 3.6 4)
 		(drill oval 2 2.4)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "49411029-ce4a-4cec-bccd-6c524f594ea7")
 	)
 	(embedded_fonts no)

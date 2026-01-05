@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -20.828 0)
+		(at 0 -21.5 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "3aa4e3ff-dd24-4db8-9f10-49ff800641be")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Analog_Joystick_M39_Panel_Mount"
-		(at 0 20.955 0)
+		(at 0 21.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "787bd738-631b-4c1e-95e7-8f5ecad0953f")
@@ -90,7 +90,7 @@
 		(uuid "3ba11c18-1904-4385-90bf-e271e2504d12")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -20.828 0)
+		(at 0 -21.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "7e0d91dd-5429-41a4-ac13-d630724ee23f")
@@ -101,39 +101,44 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at -16.25 -16.25)
-		(size 2.5 2.5)
+		(size 4.1 4.1)
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "67e885bd-65ba-4a4b-8328-5edb9625f620")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at -16.25 16.25)
-		(size 2.5 2.5)
+		(size 4.1 4.1)
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "6ed4f4e2-22d7-4ffb-aeeb-2b5e71ceadac")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 0 0)
-		(size 39.5 39.5)
+		(size 41.1 41.1)
 		(drill 39.5)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "da75e439-c4b8-4080-bf28-d6408911084b")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 16.25 -16.25)
-		(size 2.5 2.5)
+		(size 4.1 4.1)
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "e21a8f3a-a6bc-4208-a196-53c62d8edfc8")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 16.25 16.25)
-		(size 2.5 2.5)
+		(size 4.1 4.1)
 		(drill 2.5)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "63993fd5-c289-4e81-b2f1-82b2cf9c8fbf")
 	)
 	(embedded_fonts no)

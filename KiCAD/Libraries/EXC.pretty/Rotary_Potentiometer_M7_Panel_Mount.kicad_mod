@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -4.75 0)
+		(at 0 -5.25 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "9dfa3f4a-d43b-46ca-9acd-a0956f22b9b2")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Rotary_Potentiometer_M7_Panel_Mount"
-		(at 0 10 0)
+		(at 0 11 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8b6c0b71-f0df-4022-a928-cca7633951e7")
@@ -93,7 +93,7 @@
 		(uuid "af27bade-661f-4277-bb3e-a29ca98f7308")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -4.75 0)
+		(at 0 -5.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "10a1abbf-3e3a-4e44-b3f1-6088512257b9")
@@ -104,18 +104,20 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 0 0)
-		(size 7.5 7.5)
+		(size 9.1 9.1)
 		(drill 7.5)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "aa9f9e08-c295-4f63-b892-8b457789b128")
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 0 7.8)
-		(size 3 3)
+		(size 4.6 4.6)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "f5ae690e-dec5-4a05-b97c-fee0fd4eca84")
 	)
 	(embedded_fonts no)

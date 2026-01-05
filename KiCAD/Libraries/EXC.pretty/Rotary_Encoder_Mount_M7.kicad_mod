@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -4.5 0)
+		(at 0 -5.5 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "fd582adf-00f3-42d0-9ae9-87f993b9995c")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Rotary_Encoder_Mount_M7"
-		(at 0 4.5 0)
+		(at 0 5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "261c82d8-e28b-4343-8eba-b891869be7ef")
@@ -137,7 +137,7 @@
 		(uuid "90deb95e-2c94-44a7-8607-932e60f8ff42")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -4.5 0)
+		(at 0 -5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "9a5b9c26-139d-4c41-bec4-ecd629c3d112")
@@ -148,11 +148,12 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 0 0)
-		(size 7 7)
+		(size 8.6 8.6)
 		(drill 7)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "0a692300-c638-4318-8581-cd8eec712f23")
 	)
 	(embedded_fonts no)
