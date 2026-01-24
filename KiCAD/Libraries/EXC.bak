@@ -176,13 +176,98 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Adafruit_Grand_Central_M4_Express"
-		(pin_numbers
-			(hide yes)
+	(symbol "Adafruit_24-Channel_PWM_LED_Driver_TLC5947"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TLC"
+			(at 0 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
+		(property "Value" "Adafruit_24-Channel_PWM_LED_Driver_TLC5947"
+			(at 0 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXC:Adafruit_24-Channel_PWM_LED_Driver_TLC5947"
+			(at 0 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout"
+			(at 0 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Adafruit 24-Channel 12-bit PWM LED Driver - SPI Interface - TLC5947"
+			(at 0 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Source" "https://www.adafruit.com/product/1429"
+			(at 0 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Adafruit_24-Channel_PWM_LED_Driver_TLC5947_1_1"
+			(rectangle
+				(start -12.7 12.7)
+				(end 12.7 -12.7)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -10.16 15.24 270)
+				(length 2.54)
+				(name "LED_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Adafruit_Grand_Central_M4_Express"
 		(pin_names
 			(offset 1.016)
-			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -196,7 +281,7 @@
 			)
 		)
 		(property "Value" "Adafruit_Grand_Central_M4_Express"
-			(at 0 44.704 0)
+			(at 0 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -204,7 +289,7 @@
 			)
 		)
 		(property "Footprint" "EXC:Adafruit_Grand_Central_M4_Express"
-			(at 0.254 42.164 0)
+			(at 0 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -213,7 +298,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-learn.adafruit.com/assets/assets/000/115/366/original/adafruit_products_Adafruit-Grand-Central-M4-Express-Pinout.png?1663982143"
-			(at -18.034 60.198 0)
+			(at 0 -63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -222,7 +307,7 @@
 			)
 		)
 		(property "Description" "Adafruit Grand Central M4 Express"
-			(at -0.254 -44.958 0)
+			(at 0 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
