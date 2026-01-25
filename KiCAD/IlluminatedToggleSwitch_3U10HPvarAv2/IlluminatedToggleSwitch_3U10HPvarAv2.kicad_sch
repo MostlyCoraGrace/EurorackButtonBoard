@@ -734,7 +734,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EXC:SW_SPDT-M6_Panel_Mount"
+		(symbol "EXC:SW_SPDT-M6.35_Panel_Mount"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -750,7 +750,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPST_M6_MOUNT"
+			(property "Value" "SW_SPST_M6.35_MOUNT"
 				(at 0 -2.032 0)
 				(effects
 					(font
@@ -758,7 +758,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EXC:SW_SPDT_M6_Panel_Mount"
+			(property "Footprint" "EXC:SW_SPDT_M6.35_Panel_Mount"
 				(at -10.16 -4.826 0)
 				(effects
 					(font
@@ -768,7 +768,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3221/singe_blue_switch_diagram.jpg"
+			(property "Datasheet" "https://ae01.alicdn.com/kf/S30ba4cd8ca6748179fcb108112fb1d3fP.jpg"
 				(at -10.16 -6.858 0)
 				(effects
 					(font
@@ -778,7 +778,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Pole Dual-Throw (SPDT) M6 panel-mount switch"
+			(property "Description" "Single Pole Dual-Throw (SPDT) M6.35 panel-mount switch"
 				(at -10.16 -3.556 0)
 				(effects
 					(font
@@ -788,7 +788,7 @@
 					(hide yes)
 				)
 			)
-			(property "Source" "https://www.adafruit.com/product/3221"
+			(property "Source" "https://www.aliexpress.com/item/4000512396094.html"
 				(at -10.16 -5.842 0)
 				(effects
 					(font
@@ -807,7 +807,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT-M6_Panel_Mount_0_0"
+			(symbol "SW_SPDT-M6.35_Panel_Mount_0_0"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1879,7 +1879,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EXC:SW_SPDT-M6_Panel_Mount")
+		(lib_id "EXC:SW_SPDT-M6.35_Panel_Mount")
 		(at 50.8 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1887,7 +1887,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c39f7e73-5c61-499e-82d3-6009ddd720c7")
+		(uuid "a0dc3677-a3e0-48ea-9f2e-b5ca7de7e0bb")
 		(property "Reference" "SW2"
 			(at 54.61 61.5949 0)
 			(effects
@@ -1897,7 +1897,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_SPST_M6_MOUNT"
+		(property "Value" "SW_SPST_M6.35_MOUNT"
 			(at 54.61 64.1349 0)
 			(effects
 				(font
@@ -1906,7 +1906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EXC:SW_SPDT_M6_Panel_Mount"
+		(property "Footprint" "EXC:SW_SPDT_M6.35_Panel_Mount"
 			(at 40.64 68.326 0)
 			(effects
 				(font
@@ -1916,7 +1916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3221/singe_blue_switch_diagram.jpg"
+		(property "Datasheet" "https://ae01.alicdn.com/kf/S30ba4cd8ca6748179fcb108112fb1d3fP.jpg"
 			(at 40.64 70.358 0)
 			(effects
 				(font
@@ -1926,7 +1926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Dual-Throw (SPDT) M6 panel-mount switch"
+		(property "Description" "Single Pole Dual-Throw (SPDT) M6.35 panel-mount switch"
 			(at 40.64 67.056 0)
 			(effects
 				(font
@@ -1936,7 +1936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "https://www.adafruit.com/product/3221"
+		(property "Source" "https://www.aliexpress.com/item/4000512396094.html"
 			(at 40.64 69.342 0)
 			(effects
 				(font
