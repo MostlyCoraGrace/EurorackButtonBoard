@@ -1407,7 +1407,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "GCE"
-			(at 37.592 48.26 0)
+			(at -0.254 0.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,6 +1477,42 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin no_connect line
+				(at -41.91 44.45 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "93"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -41.91 11.43 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "97"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin input line
@@ -1587,6 +1623,24 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at -41.91 -11.43 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "98"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -36.83 49.53 270)
 				(length 2.54)
@@ -1598,6 +1652,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -36.83 -49.53 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "95"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1642,6 +1714,24 @@
 				)
 			)
 			(pin input line
+				(at -31.75 -49.53 90)
+				(length 2.54)
+				(name "loREF0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "86"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -29.21 49.53 270)
 				(length 2.54)
 				(name "GND"
@@ -1652,6 +1742,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -29.21 -49.53 90)
+				(length 2.54)
+				(name "loREF1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "85"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1680,14 +1788,14 @@
 			(pin input line
 				(at -26.67 -49.53 90)
 				(length 2.54)
-				(name "loREF0"
+				(name "RST"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "86"
+				(number "84"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1716,14 +1824,14 @@
 			(pin input line
 				(at -24.13 -49.53 90)
 				(length 2.54)
-				(name "loREF1"
+				(name "3.3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "85"
+				(number "83"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1752,14 +1860,14 @@
 			(pin input line
 				(at -21.59 -49.53 90)
 				(length 2.54)
-				(name "RST"
+				(name "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "84"
+				(number "82"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1788,14 +1896,14 @@
 			(pin input line
 				(at -19.05 -49.53 90)
 				(length 2.54)
-				(name "3.3"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "83"
+				(number "81"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1824,14 +1932,14 @@
 			(pin input line
 				(at -16.51 -49.53 90)
 				(length 2.54)
-				(name "5V"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "82"
+				(number "80"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1860,32 +1968,14 @@
 			(pin input line
 				(at -13.97 -49.53 90)
 				(length 2.54)
-				(name "GND"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "81"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -49.53 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "80"
+				(number "79"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1914,14 +2004,14 @@
 			(pin input line
 				(at -8.89 -49.53 90)
 				(length 2.54)
-				(name "VIN"
+				(name "A0/DAC0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "79"
+				(number "78"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1940,6 +2030,24 @@
 					)
 				)
 				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -49.53 90)
+				(length 2.54)
+				(name "A1/DAC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "77"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1968,14 +2076,14 @@
 			(pin input line
 				(at -3.81 -49.53 90)
 				(length 2.54)
-				(name "A0/DAC0"
+				(name "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "78"
+				(number "76"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2004,14 +2112,14 @@
 			(pin input line
 				(at -1.27 -49.53 90)
 				(length 2.54)
-				(name "A1/DAC1"
+				(name "A3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "77"
+				(number "75"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2040,14 +2148,14 @@
 			(pin input line
 				(at 1.27 -49.53 90)
 				(length 2.54)
-				(name "A2"
+				(name "A4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "76"
+				(number "74"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2076,14 +2184,14 @@
 			(pin input line
 				(at 3.81 -49.53 90)
 				(length 2.54)
-				(name "A3"
+				(name "A5"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "75"
+				(number "73"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2112,14 +2220,14 @@
 			(pin input line
 				(at 6.35 -49.53 90)
 				(length 2.54)
-				(name "A4"
+				(name "A6"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "74"
+				(number "72"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2148,32 +2256,14 @@
 			(pin input line
 				(at 8.89 -49.53 90)
 				(length 2.54)
-				(name "A5"
+				(name "A7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "73"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 11.43 -49.53 90)
-				(length 2.54)
-				(name "A6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "72"
+				(number "71"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2202,14 +2292,14 @@
 			(pin input line
 				(at 13.97 -49.53 90)
 				(length 2.54)
-				(name "A7"
+				(name "A8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "71"
+				(number "70"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2228,6 +2318,24 @@
 					)
 				)
 				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 16.51 -49.53 90)
+				(length 2.54)
+				(name "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "69"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2256,14 +2364,14 @@
 			(pin input line
 				(at 19.05 -49.53 90)
 				(length 2.54)
-				(name "A8"
+				(name "A10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "70"
+				(number "68"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2292,14 +2400,14 @@
 			(pin input line
 				(at 21.59 -49.53 90)
 				(length 2.54)
-				(name "A9"
+				(name "A11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "69"
+				(number "67"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2328,14 +2436,14 @@
 			(pin input line
 				(at 24.13 -49.53 90)
 				(length 2.54)
-				(name "A10"
+				(name "A12"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "68"
+				(number "66"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2364,14 +2472,14 @@
 			(pin input line
 				(at 26.67 -49.53 90)
 				(length 2.54)
-				(name "A11"
+				(name "A13"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "67"
+				(number "65"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2400,14 +2508,14 @@
 			(pin input line
 				(at 29.21 -49.53 90)
 				(length 2.54)
-				(name "A12"
+				(name "A14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "66"
+				(number "64"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2436,42 +2544,6 @@
 			(pin input line
 				(at 31.75 -49.53 90)
 				(length 2.54)
-				(name "A13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "65"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 34.29 -49.53 90)
-				(length 2.54)
-				(name "A14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "64"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 36.83 -49.53 90)
-				(length 2.54)
 				(name "A15"
 					(effects
 						(font
@@ -2480,6 +2552,42 @@
 					)
 				)
 				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 36.83 49.53 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "94"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 36.83 -49.53 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "96"
 					(effects
 						(font
 							(size 1.27 1.27)
