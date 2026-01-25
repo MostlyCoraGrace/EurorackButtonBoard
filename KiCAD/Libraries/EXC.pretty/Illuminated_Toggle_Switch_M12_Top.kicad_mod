@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -27.5 0)
+		(at 0 -29.25 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "15d36448-76a3-461c-957d-6816e5ed4dfe")
@@ -103,8 +103,8 @@
 		(uuid "2c31e93e-9fbb-4446-b11d-b07bce777be4")
 	)
 	(fp_line
-		(start -8.242 -20.7181)
-		(end -8.242 14.3847)
+		(start -9.242 -20.7181)
+		(end -9.242 14.3847)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -113,8 +113,8 @@
 		(uuid "aa65c2bd-9aa4-4d7b-a604-0f027ea1b5e0")
 	)
 	(fp_line
-		(start -8.242 14.3847)
-		(end 8.242 14.3847)
+		(start -9.242 14.3847)
+		(end 9.242 14.3847)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -123,8 +123,8 @@
 		(uuid "b182aabb-9ebe-4795-a342-77dc4357a78c")
 	)
 	(fp_line
-		(start -7.25 -26.2307)
-		(end -7.25 -20.7181)
+		(start -8.25 -28.2307)
+		(end -8.25 -20.7181)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -133,8 +133,8 @@
 		(uuid "09326227-f233-47c6-8bc4-acb99dbd3ac3")
 	)
 	(fp_line
-		(start -7.25 -26.2307)
-		(end 7.25 -26.2307)
+		(start -8.25 -28.2307)
+		(end 8.25 -28.2307)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -143,8 +143,8 @@
 		(uuid "81b3b09c-075d-463a-84c4-faa61e8fdd17")
 	)
 	(fp_line
-		(start -7.25 -20.7181)
-		(end -8.242 -20.7181)
+		(start -8.25 -20.7181)
+		(end -9.242 -20.7181)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -153,8 +153,8 @@
 		(uuid "9ef2c8b4-256d-4a8d-83b3-d799d943f950")
 	)
 	(fp_line
-		(start 7.25 -26.2307)
-		(end 7.25 -20.7181)
+		(start 8.25 -28.2307)
+		(end 8.25 -20.7181)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -163,8 +163,8 @@
 		(uuid "0ff9851e-01da-4332-8de2-6b4252a7cc1d")
 	)
 	(fp_line
-		(start 7.25 -20.7181)
-		(end 8.242 -20.7181)
+		(start 8.25 -20.7181)
+		(end 9.242 -20.7181)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -173,8 +173,8 @@
 		(uuid "5b284030-a090-4924-9ff6-aa9e8e10cdd1")
 	)
 	(fp_line
-		(start 8.242 -20.7181)
-		(end 8.242 14.3847)
+		(start 9.242 -20.7181)
+		(end 9.242 14.3847)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -183,7 +183,7 @@
 		(uuid "c34fb0cf-2dc3-41bc-9540-9eeec56c5bbd")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -27.5 0)
+		(at 0 -29.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "3f9030f8-e9fa-4aed-a816-d571af0457ac")
