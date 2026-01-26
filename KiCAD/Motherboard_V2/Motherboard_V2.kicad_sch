@@ -3189,6 +3189,42 @@
 					)
 				)
 				(pin input line
+					(at -2.54 12.7 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 5.08 12.7 270)
 					(length 2.54)
 					(name "GND"
@@ -3456,8 +3492,16 @@
 		(uuid "3ecf33c5-0019-40ea-b4dc-a30df11085c7")
 	)
 	(no_connect
+		(at 246.38 157.48)
+		(uuid "6ef9ed68-ee3b-4598-8efd-087fbd6b1473")
+	)
+	(no_connect
 		(at 168.91 152.4)
 		(uuid "a845d5b5-cb3c-488a-9499-8ed4ad5df0a5")
+	)
+	(no_connect
+		(at 246.38 154.94)
+		(uuid "ac3dd9c2-900b-4ef2-b985-489849a7508c")
 	)
 	(no_connect
 		(at 177.8 152.4)
@@ -3466,6 +3510,10 @@
 	(no_connect
 		(at 38.1 22.86)
 		(uuid "d1f64794-24f7-454d-99d9-3b6af54c66ad")
+	)
+	(no_connect
+		(at 246.38 149.86)
+		(uuid "d257496c-cb6c-4769-b119-5a85c2703ab8")
 	)
 	(no_connect
 		(at 91.44 152.4)
@@ -3646,7 +3694,7 @@
 		(uuid "082456be-0a3b-4beb-80fd-d23e75384ee3")
 	)
 	(label "LAT"
-		(at 68.58 22.86 90)
+		(at 106.68 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3674,6 +3722,16 @@
 			(justify left bottom)
 		)
 		(uuid "22d2e911-9eff-47b3-9cfc-a845e9fdb8b5")
+	)
+	(label "5V"
+		(at 246.38 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dbf1590-9c0a-48c0-8c5c-c1dde10420e4")
 	)
 	(label "GND"
 		(at 142.24 48.26 90)
@@ -3706,6 +3764,16 @@
 		(uuid "3d9f0abe-17a9-4dcb-a3a9-990946df7ffe")
 	)
 	(label "3.3"
+		(at 139.7 48.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56ebd95d-3b70-4cb4-9ab9-12e4b7cacdff")
+	)
+	(label "3.3"
 		(at 40.64 121.92 270)
 		(effects
 			(font
@@ -3734,6 +3802,16 @@
 			(justify left bottom)
 		)
 		(uuid "75e35176-10e9-4f21-a696-b3b09ec1fa96")
+	)
+	(label "GND"
+		(at 246.38 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7908345b-077d-4d9d-a0b1-29634ac0b6bf")
 	)
 	(label "SCK"
 		(at 106.68 109.22 0)
@@ -3794,6 +3872,16 @@
 			(justify right bottom)
 		)
 		(uuid "b5cbdb69-52ae-4625-ad80-94267fb70563")
+	)
+	(label "3.3"
+		(at 134.62 48.26 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc27fbc1-e86f-4dc7-bf5d-88af8aff33de")
 	)
 	(label "SCK"
 		(at 22.86 154.94 180)
@@ -4880,6 +4968,12 @@
 		)
 		(pin "6"
 			(uuid "3c28b734-0eab-4fbb-9730-c859d80cab38")
+		)
+		(pin "7"
+			(uuid "309c72a5-c031-405d-8de2-17dd35e61493")
+		)
+		(pin "8"
+			(uuid "14e6512c-9286-48e4-8694-c8fcf6a17fb8")
 		)
 		(instances
 			(project ""
